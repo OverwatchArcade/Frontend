@@ -1,0 +1,5 @@
+{
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html}",
+    "vetur.format.enable": false,
+    "discord.enabled": false
+}
