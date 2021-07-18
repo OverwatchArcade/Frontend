@@ -10726,10 +10726,10 @@ vue-content-loader@^0.2:
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.3"
 
-vue-country-flag@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.1.1.tgz#f5b23cdb072be951214955a207ea0695da580869"
-  integrity sha512-rRPpmGh0tP4DOMyzBQbRUpI9jXFFHJSynGTvf+ON5JK2gY2dnU/Kb+laDDPSHHfG8pRfgMGrVhf4x7uniV8YDQ==
+vue-country-flag@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.2.0.tgz#931c6b0acadee901468a8530378cd67c292dc7cd"
+  integrity sha512-Nn45mcy5uLWj2Lc0OWSwkUukKR4m2AOD0YlW+2eZ2qjB5nMCczZB75z8bQORaZ+yWEwrL2fS/e2SsP4CdYwgcg==
 
 vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.8.0:
   version "7.8.0"
