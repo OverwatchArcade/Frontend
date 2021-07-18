@@ -198,7 +198,7 @@
           header-tag="header"
           class="mt-3"
         >
-          <h5>{{ $t('general.profile.favourite day') }}</h5>
+          <h5>{{ $t('general.profile.favourite gamemodes') }}</h5>
           <div class="row mb-4">
             <div class="col-12">
               <b-img
