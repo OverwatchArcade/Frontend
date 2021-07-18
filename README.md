@@ -1,20 +1,10 @@
-# frontend
+<p align="center"><img src="https://i.imgur.com/KVpI0R0.jpg"></p>
 
-## Build Setup
+## OverwatchArcadeToday
 
-```bash
-# install dependencies
-$ yarn install
+Discover daily Overwatch arcade gamemodes without having to login to Overwatch. Arcade modes are posted daily. Also get notified by following the Overwatch arcade Twitter or Discord server. Overwatch arcade today also provides a free API so you can create your own implementation. Special thanks to all the contributors
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## License
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+OverwatchArcadeToday is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
