@@ -9393,16 +9393,13 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@^10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.2.0.tgz#3d64c1590f911013b3fa48a0b22a83d5e1494716"
-  integrity sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==
+sass-loader@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.1.0.tgz#b73324622231009da6fba61ab76013256380d201"
+  integrity sha512-FVJZ9kxVRYNZTIe2xhw93n3xJNYZADr+q69/s98l9nTCrWASo+DR2Ot0s5xTKQDDEosUkatsGeHxcH4QBp5bSg==
   dependencies:
     klona "^2.0.4"
-    loader-utils "^2.0.0"
     neo-async "^2.6.2"
-    schema-utils "^3.0.0"
-    semver "^7.3.2"
 
 sass@^1.32.12:
   version "1.35.2"
@@ -10726,10 +10723,10 @@ vue-content-loader@^0.2:
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.3"
 
-vue-country-flag@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.1.1.tgz#f5b23cdb072be951214955a207ea0695da580869"
-  integrity sha512-rRPpmGh0tP4DOMyzBQbRUpI9jXFFHJSynGTvf+ON5JK2gY2dnU/Kb+laDDPSHHfG8pRfgMGrVhf4x7uniV8YDQ==
+vue-country-flag@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.2.0.tgz#931c6b0acadee901468a8530378cd67c292dc7cd"
+  integrity sha512-Nn45mcy5uLWj2Lc0OWSwkUukKR4m2AOD0YlW+2eZ2qjB5nMCczZB75z8bQORaZ+yWEwrL2fS/e2SsP4CdYwgcg==
 
 vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.8.0:
   version "7.8.0"
