@@ -146,17 +146,15 @@ export default {
       })
     },
     getOverwatchEvents () {
-      if (this.$auth.loggedIn) {
-        this.$axios.get('/api/v1/overwatch/events').then((response) => {
-          this.overwatch.events = response.data.data
+      this.$axios.get('/api/v1/overwatch/events').then((response) => {
+        this.overwatch.events = response.data.data
 
-          this.$axios.get('/api/v1/overwatch/event').then((response) => {
-            this.overwatch.event = this.overwatch.events.filter(function (item) {
-              return item === response.data.data
-            })
+        this.$axios.get('/api/v1/overwatch/event').then((response) => {
+          this.overwatch.event = this.overwatch.events.filter(function (item) {
+            return item === response.data.data
           })
         })
-      }
+      })
     },
     postOverwatchEvent () {
       this.$axios

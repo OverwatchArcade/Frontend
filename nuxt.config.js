@@ -38,7 +38,9 @@ export default {
     '@nuxtjs/toast',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    'nuxt-i18n'
+    ['nuxt-i18n', {
+      detectBrowserLanguage: false
+    }]
   ],
 
   pwa: {
@@ -96,9 +98,9 @@ export default {
       { code: 'ru', name: 'Russian', file: 'ru.json' }
     ],
     lazy: true,
+    defaultLocale: 'us',
     langDir: 'i18n/',
-    strategy: 'no_prefix',
-    defaultLocale: 'us'
+    strategy: 'no_prefix'
   },
 
   auth: {
