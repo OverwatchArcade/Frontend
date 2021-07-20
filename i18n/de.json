@@ -1,37 +1,37 @@
 {
   "general": {
     "menu": {
-      "contributors": "contributors",
-      "api docs": "api docs",
-      "about": "about"
+      "contributors": "Beitragende",
+      "api docs": "API Dokumentation",
+      "about": "Über"
     },
     "overwatch": {
       "warning": "Achtung",
-      "not updated yet": "not updated yet",
-      "day ends in": "Day ends in"
+      "not updated yet": "Noch nicht Aktualisiert",
+      "day ends in": "Tag endet in"
     },
     "profile": {
-      "member since": "Member since {0}",
-      "social": "Social",
-      "personal": "Personal",
-      "nationality": "Nationality",
-      "about": "About",
-      "contribution statistics": "Contribution statistics",
-      "contribution count": "Contribution count",
-      "last contributed": "Last contributed",
-      "favourite day": "Favourite day",
-      "favourite gamemodes": "Favourite gamemodes",
-      "favourite heroes": "Favourite heroes",
-      "favourite maps": "Favourite maps"
+      "member since": "Mitglied seit {0}",
+      "social": "Sozial",
+      "personal": "Persönlich",
+      "nationality": "Nationalität",
+      "about": "Über",
+      "contribution statistics": "Beitrag Statistiken",
+      "contribution count": "Beiträge",
+      "last contributed": "Zuletzt beigetragen",
+      "favourite day": "Lieblingstag",
+      "favourite gamemodes": "Lieblings Spielmodus",
+      "favourite heroes": "Lieblings Held",
+      "favourite maps": "Lieblinks Karte"
     },
     "contributor listing": {
-      "contributor since": "Contributor since {0} with currently {1} contributions.",
-      "contributor last contributed": "Last contributed {0}",
-      "view profile": "view profile"
+      "contributor since": "Beitragender seit {0} mit derzeitig {1} beiträgen.",
+      "contributor last contributed": "Zuletzt beigetragen {0}",
+      "view profile": "Profil anzeigen"
     },
     "footer": {
-      "copyright_site": "This site is licensed under a",
-      "copyright_materials": "Game content and materials are trademarks and copyrights of their respective publisher and its licensors. all rights reserved"
+      "copyright_site": "Diese Seite ist lizenziert unter einer",
+      "copyright_materials": "Spielinhalte und Materialien sind Marken und Urheberrechte des jeweiligen Herausgebers und seiner Lizenzgeber. Alle Rechte vorbehalten"
     }
   },
   "overwatch": {
