@@ -2,7 +2,7 @@
   <div>
     <div class="row">
       <div class="col-auto">
-        <h1>{{ $t('overwatch.contributors') }}</h1>
+        <h1>{{ $t('general.menu.contributors') }}</h1>
       </div>
     </div>
     <div class="row">
@@ -37,3 +37,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+.card {height: 100%;}
+</style>
