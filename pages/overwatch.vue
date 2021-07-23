@@ -114,7 +114,7 @@ export default {
   data () {
     return {
       timeUntilReset:
-        new Date().setUTCHours(23, 23, 59, 999) - new Date().getTime(),
+        new Date().setUTCHours(23, 59, 59, 999) - new Date().getTime(),
       api: {
         isToday: false,
         contributor: {

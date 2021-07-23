@@ -66,7 +66,7 @@
             v-model="translate"
             :options="$i18n.locales"
             label="translations"
-            :searchable="true"
+            :searchable="false"
             :allow-empty="false"
             :close-on-select="true"
             :show-labels="false"
