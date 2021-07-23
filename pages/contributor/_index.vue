@@ -130,7 +130,7 @@
                 {{ $t('general.profile.nationality') }}
               </h6>
             </div>
-            <div v-if="contributor.profile.personal.country" class="col-sm-9 text-secondary">
+            <div v-if="contributor.profile.personal.country.code" class="col-sm-9 text-secondary">
               <CountryFlag :country="contributor.profile.personal.country.code" size="small" />
               {{ contributor.profile.personal.country.name }}
             </div>
