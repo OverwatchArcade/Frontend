@@ -56,7 +56,7 @@ export default {
       if (val == null) {
         return '-'
       }
-      return format(val)
+      return format(val + ' UTC')
     }
   }
 }
