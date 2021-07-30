@@ -4125,10 +4125,10 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-discord-oauth2@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/discord-oauth2/-/discord-oauth2-2.7.0.tgz#800d9d288ac28c2f1349c129f297c98987e7f45b"
-  integrity sha512-q8U78uVqrWtMR1KbW4O0Cx453LgWz/bjCgWCP/iup9+uiZ7Ba+mCw+i6xRO9aC468gsJeu/hXaN5zwmDq8tfAA==
+discord-oauth2@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/discord-oauth2/-/discord-oauth2-2.7.1.tgz#d71958d6f321c7bebec859ee60fc316fefef7eb7"
+  integrity sha512-8PiGsieFxujS6FqcDrWtrunhy5LQGIZC6n1Bi58CP/1/rusqxplj3tXMQ2DBZtw/oyDUrJwSBsYGSr7IJJwTeg==
 
 doctrine@^2.1.0:
   version "2.1.0"
