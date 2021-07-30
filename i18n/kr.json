@@ -1,37 +1,37 @@
 {
   "general": {
     "menu": {
-      "contributors": "contributors",
-      "api docs": "api docs",
-      "about": "about"
+      "contributors": "기여자",
+      "api docs": "api 문서",
+      "about": "정보"
     },
     "overwatch": {
-      "warning": "warning",
-      "not updated yet": "not updated yet",
-      "day ends in": "Day ends in"
+      "warning": "주의",
+      "not updated yet": "아직 업데이트되지 않음",
+      "day ends in": "일일매치 종료까지"
     },
     "profile": {
-      "member since": "Member since {0}",
-      "social": "Social",
-      "personal": "Personal",
-      "nationality": "Nationality",
-      "about": "About",
-      "contribution statistics": "Contribution statistics",
-      "contribution count": "Contribution count",
-      "last contributed": "Last contributed",
-      "favourite day": "Favourite day",
-      "favourite gamemodes": "Favourite gamemodes",
-      "favourite heroes": "Favourite heroes",
-      "favourite maps": "Favourite maps"
+      "member since": "{0} 부터 회원활동",
+      "social": "소셜",
+      "personal": "개인정보",
+      "nationality": "국가",
+      "about": "정보",
+      "contribution statistics": "기여 통계",
+      "contribution count": "기여 횟수",
+      "last contributed": "마지막 기여",
+      "favourite day": "좋아하는 요일",
+      "favourite gamemodes": "좋아하는 게임모드",
+      "favourite heroes": "좋아하는 영웅",
+      "favourite maps": "좋아하는 맵"
     },
     "contributor listing": {
-      "contributor since": "Contributor since {0} with currently {1} contributions.",
-      "contributor last contributed": "Last contributed {0}",
-      "view profile": "view profile"
+      "contributor since": "{0} 동안 총 {1} 회 기여한 기여자 입니다.",
+      "contributor last contributed": "마지막 기여 {0}",
+      "view profile": "프로필 보기"
     },
     "footer": {
-      "copyright_site": "This site is licensed under a",
-      "copyright_materials": "Game content and materials are trademarks and copyrights of their respective publisher and its licensors. all rights reserved"
+      "copyright_site": "이 사이트는 다음 라이센스 하에서 있습니다",
+      "copyright_materials": "게임 콘탠츠 및 자료는 해당 배급사와 라이센스 업체의 상표 및 저작권입니다. 모든 권리가 보유됨"
     }
   },
   "overwatch": {
@@ -92,7 +92,7 @@
       "Paris": "파리",
       "Hero Gauntlet": "영웅 건틀릿",
       "Havana": "하바나",
-      "Mirrored Deathmatch": "미러전 데스매치\n<tx0C0000000001FEE9>",
+      "Mirrored Deathmatch": "미러전 데스매치",
       "Quick Play Classic": "빠른 대전 클래식",
       "Snowball Deathmatch": "눈싸움 데스매치",
       "Skirmish": "연습 전투",
