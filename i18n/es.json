@@ -1,6 +1,6 @@
 {
-  "general": "general"{
-    "menu": "menú" {
+  "general": {
+    "menu": {
       "contributors": "colaboradores",
       "api docs": "documentos del api",
       "about": "sobre"
@@ -24,7 +24,7 @@
       "favourite heroes": "Heroes Favoritos",
       "favourite maps": "Mapas Favoritos"
     },
-    "contributor listing": "Lista de aportes" {
+    "contributor listing": {
       "contributor since": "Colaborador desde {0} con {1} aportes.",
       "contributor last contributed": "Último aporte {0}",
       "view profile": "mirar perfil"
