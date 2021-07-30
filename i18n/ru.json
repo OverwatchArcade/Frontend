@@ -1,37 +1,37 @@
 {
   "general": {
     "menu": {
-      "contributors": "contributors",
-      "api docs": "api docs",
-      "about": "about"
+      "contributors": "участники",
+      "api docs": "api документы",
+      "about": "про нас"
     },
     "overwatch": {
-      "warning": "warning",
-      "not updated yet": "not updated yet",
-      "day ends in": "Day ends in"
+      "warning": "Предупреждение",
+      "not updated yet": "Еще не обновлено",
+      "day ends in": "День заканчивается через"
     },
     "profile": {
-      "member since": "Member since {0}",
-      "social": "Social",
-      "personal": "Personal",
-      "nationality": "Nationality",
-      "about": "About",
-      "contribution statistics": "Contribution statistics",
-      "contribution count": "Contribution count",
-      "last contributed": "Last contributed",
-      "favourite day": "Favourite day",
-      "favourite gamemodes": "Favourite gamemodes",
-      "favourite heroes": "Favourite heroes",
-      "favourite maps": "Favourite maps"
+      "member since": "Участник с {0}",
+      "social": "Социальное",
+      "personal": "Личное",
+      "nationality": "Национальность",
+      "about": "Об",
+      "contribution statistics": "Статистика взносов",
+      "contribution count": "Подсчет взносов",
+      "last contributed": "Последний взнос",
+      "favourite day": "Любимый день",
+      "favourite gamemodes": "Любимые режимы игры",
+      "favourite heroes": "Любимые герои",
+      "favourite maps": "Любимые карты"
     },
     "contributor listing": {
-      "contributor since": "Contributor since {0} with currently {1} contributions.",
-      "contributor last contributed": "Last contributed {0}",
-      "view profile": "view profile"
+      "contributor since": "Соавтор с {0}, на данный момент {1} публикации.",
+      "contributor last contributed": "Последний взнос {0}",
+      "view profile": "Просмотреть профиль"
     },
     "footer": {
-      "copyright_site": "This site is licensed under a",
-      "copyright_materials": "Game content and materials are trademarks and copyrights of their respective publisher and its licensors. all rights reserved"
+      "copyright_site": "Этот сайт находится под лицензией",
+      "copyright_materials": "Контент и материалы игры являются товарными знаками и авторскими правами соответствующих издателей и их лицензиаров. Все права защищены."
     }
   },
   "overwatch": {
