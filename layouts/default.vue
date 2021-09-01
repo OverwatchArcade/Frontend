@@ -21,9 +21,9 @@
                 path: '/contributor/' + $auth.user.username,
               }"
             >
-              <h3 class="float-lg-right text-sm-left">
+              <h3 class="float-lg-end text-sm-left">
                 <b-avatar :src="$auth.user.avatar" />
-                <span id="username" class="ml-2">{{ $auth.user.username }}</span>
+                <span id="username" class="ms-2">{{ $auth.user.username }}</span>
               </h3>
             </nuxt-link>
           </div>
@@ -45,21 +45,19 @@
               International License</a>
             <br>
           </p>
-          <p>
-            <a href="//github.com/OverwatchArcade" target="_blank">
-              <font-awesome-icon
-                :icon="['fab', 'github']"
-                style="font-size: 24px"
-              />
-            </a>
-            <a href="//twitter.com/owarcade" target="_blank">
-              <font-awesome-icon
-                :icon="['fab', 'twitter']"
-                class="ml-2"
-                style="font-size: 24px"
-              />
-            </a>
-          </p>
+          <a href="//github.com/OverwatchArcade" target="_blank">
+            <font-awesome-icon
+              :icon="['fab', 'github']"
+              style="font-size: 24px"
+            />
+          </a>
+          <a href="//twitter.com/owarcade" target="_blank">
+            <font-awesome-icon
+              :icon="['fab', 'twitter']"
+              class="ms-2"
+              style="font-size: 24px"
+            />
+          </a>
         </div>
         <div class="col-12 col-md-3">
           <Multiselect
