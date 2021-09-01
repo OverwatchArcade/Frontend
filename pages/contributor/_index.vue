@@ -300,7 +300,7 @@ export default {
       })
     }
     this.$axios.get('/api/v1/contributor/' + username).then((response) => {
-      // eslint-disable-next-line no-return-assign
+      // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
       this.contributor = Object.assign(this.contributor, contributor)
     })

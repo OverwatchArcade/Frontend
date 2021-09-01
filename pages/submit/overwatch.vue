@@ -154,12 +154,10 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 mt-4">
-        <button class="btn btn-warning btn-block" @click="submitDaily()">
-          Submit
-        </button>
-      </div>
+    <div class="d-grid gap-2 my-5">
+      <button class="btn btn-warning btn-block" @click="submitDaily()">
+        Submit
+      </button>
     </div>
   </div>
 </template>

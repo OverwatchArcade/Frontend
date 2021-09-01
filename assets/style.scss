@@ -26,6 +26,10 @@ html {
   background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0,0,0,.650)), url('~assets/pattern.png') repeat;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
@@ -148,6 +152,14 @@ a:hover {
 
 span.flag.small-flag {
   margin: -15px;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.card-header > h4 {
+  margin-top:4px;
 }
 
 // Small devices (landscape phones, 576px and up)

@@ -15,13 +15,23 @@
     </b-modal>
     <div class="row mb-lg-2">
       <div class="col">
-        <h3 v-if="!api.isToday">
-          <span class="badge badge-warning">{{ $t('general.overwatch.warning') }}</span> {{ $t('general.overwatch.not updated yet') }}
-        </h3>
+        <div v-if="!api.isToday">
+          <span
+            class="badge bg-warning text-dark text-center"
+          >{{ $t('general.overwatch.warning') }}</span>
+          <h3>
+            {{ $t('general.overwatch.not updated yet') }}
+          </h3>
+        </div>
         <div v-else>
           <h3>Contributor</h3>
           <h4>
-            <b-avatar :src="api.contributor.avatar" size="32px" />
+            <b-avatar
+              :src="
+                api.contributor.avatar"
+              size="32px"
+              class="me-2"
+            />
             <nuxt-link
               :to="{
                 path:
@@ -89,15 +99,13 @@
       </div>
     </div>
     <client-only>
-      <div v-if="$auth.loggedIn" class="row">
-        <div class="col-12 mt-4">
-          <nuxt-link v-if="!api.isToday" to="/submit/overwatch" class="btn btn-block btn-primary">
-            Update
-          </nuxt-link>
-          <button v-else v-b-modal.undo-modal class="btn btn-block btn-warning">
-            Undo
-          </button>
-        </div>
+      <div v-if="$auth.loggedIn" class="d-grid gap-2 my-5">
+        <nuxt-link v-if="!api.isToday" to="/submit/overwatch" class="btn btn-primary">
+          Update
+        </nuxt-link>
+        <button v-else v-b-modal.undo-modal class="btn btn-warning">
+          Undo
+        </button>
       </div>
     </client-only>
   </div>

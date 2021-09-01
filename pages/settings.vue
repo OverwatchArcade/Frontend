@@ -32,7 +32,7 @@
               </div>
             </div>
           </div>
-          <div class="card-footer text-right">
+          <div class="card-footer text-end">
             <button type="button" class="btn btn-outline-dark" @click="$refs.avatar.click()">
               Browse
             </button>
@@ -47,15 +47,15 @@
               <h4>Social</h4>
             </div>
             <div class="card-body">
-              <div class="form-group">
+              <div class="mb-2">
                 <label for="text1">Discord</label>
                 <input v-model="settings.social.discord" placeholder="bluedog#1234" type="text" class="form-control">
               </div>
-              <div class="form-group">
+              <div class="mb-2">
                 <label for="text">Battlenet</label>
                 <input v-model="settings.social.battlenet" placeholder="bluedog#1234" type="text" class="form-control">
               </div>
-              <div class="form-group">
+              <div class="mb-2">
                 <label for="text2">Steam</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -66,7 +66,7 @@
                   <input v-model="settings.social.steam" type="text" class="form-control">
                 </div>
               </div>
-              <div class="form-group">
+              <div class="mb-2">
                 <label for="text2">Twitter</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -78,7 +78,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-footer text-right">
+            <div class="card-footer text-end">
               <button class="btn btn-primary" @click="saveProfile">
                 Save profile
               </button>
@@ -93,7 +93,7 @@
             <h4>About</h4>
           </div>
           <div class="card-body">
-            <div class="form-group">
+            <div class="mb-2">
               <label for="country">Country</label>
               <div>
                 <multiselect
@@ -108,12 +108,12 @@
                 />
               </div>
             </div>
-            <div class="form-group">
+            <div class="mb-2">
               <label for="textarea">About</label>
               <textarea v-model="settings.personal.about" cols="40" rows="5" class="form-control" />
             </div>
           </div>
-          <div class="card-footer text-right">
+          <div class="card-footer text-end">
             <button class="btn btn-primary" @click="saveProfile()">
               Save profile
             </button>
@@ -125,7 +125,7 @@
             <h4>Overwatch</h4>
           </div>
           <div class="card-body">
-            <div class="form-group">
+            <div class="mb-2">
               <label>Arcade modes</label>
               <div>
                 <multiselect
@@ -140,7 +140,7 @@
                 />
               </div>
             </div>
-            <div class="form-group">
+            <div class="mb-2">
               <label>Heroes</label>
               <div>
                 <multiselect
@@ -155,7 +155,7 @@
                 />
               </div>
             </div>
-            <div class="form-group">
+            <div class="mb-2">
               <label>Maps</label>
               <div>
                 <multiselect
@@ -171,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="card-footer text-right">
+          <div class="card-footer text-end">
             <button class="btn btn-primary" @click="saveProfile()">
               Save profile
             </button>
