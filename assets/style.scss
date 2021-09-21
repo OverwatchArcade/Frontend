@@ -162,6 +162,22 @@ span.flag.small-flag {
   margin-top:4px;
 }
 
+.contributiontable {
+  display: flex;
+  flex-wrap: wrap;
+
+  .day {
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 10px;
+    width: 10px;
+    margin: 0px 3px 10px 0px;
+  }
+  .contributed {
+    background-color: greenyellow;
+  }
+}
+
+
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 768px) {
   .largeTile .card .card-img-top {
