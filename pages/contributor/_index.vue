@@ -191,6 +191,26 @@
               {{ contributor.stats.favouriteContributionDay }}
             </div>
           </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">
+                {{ $t('general.profile.contribution history') }}
+              </h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              <div class="contributiontable">
+                <div
+                  v-for="item in data.contributeTable"
+                  :key="item.value"
+                  v-b-tooltip.hover
+                  :title="item.value"
+                  class="day"
+                  :class="{ contributed: item.contributed }"
+                />
+              </div>
+            </div>
+          </div>
         </b-card>
 
         <b-card
@@ -258,6 +278,9 @@ export default {
   },
   data () {
     return {
+      data: {
+        contributeTable: []
+      },
       contributor: {
         username: null,
         group: null,
@@ -303,11 +326,31 @@ export default {
       // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
       this.contributor = Object.assign(this.contributor, contributor)
+      this.data.contributeTable = this.calculateContributeTable(response.data.data.stats.contributionDays)
     })
   },
   methods: {
     removeWhiteSpace (val) {
       return val.replace(' ', '').replace(':', '')
+    },
+    calculateContributeTable (contributorDays) {
+      const contributedDays = []
+      contributorDays.forEach((e) => {
+        const date = new Date(e)
+        contributedDays.push(date.toDateString())
+      })
+
+      const contributeTableHistoryDays = 365
+      const today = new Date()
+      const dates = []
+      for (let i = 1; i < contributeTableHistoryDays; i++) {
+        const date = new Date()
+        date.setDate(today.getDate() - i)
+        const isContributedDay = contributedDays.includes(date.toDateString())
+        dates.push({ value: date.toDateString(), contributed: isContributedDay })
+      }
+
+      return dates
     },
     formatDate (val) {
       if (val == null) {
