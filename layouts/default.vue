@@ -33,7 +33,7 @@
     <Nuxt />
     <section id="footer" class="mt-4">
       <div class="row">
-        <div class="col-12 col-md-9">
+        <div class="col-12 col-md-9 mb-sm-5">
           <p class="small">
             {{ $t('general.footer.copyright_materials') }}<br>
             {{ $t('general.footer.copyright_site') }}
@@ -43,7 +43,9 @@
               href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
             >Creative Commons Attribution-NonCommercial-ShareAlike 4.0
               International License</a>
-            <br>
+          </p>
+          <p class="small">
+            <a href="https://github.com/OverwatchArcade/Frontend/tree/main/i18n">📑 Help translate this site</a>
           </p>
           <a href="//github.com/OverwatchArcade" target="_blank">
             <font-awesome-icon
@@ -54,6 +56,13 @@
           <a href="//twitter.com/owarcade" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'twitter']"
+              class="ms-2"
+              style="font-size: 24px"
+            />
+          </a>
+          <a href="https://discord.gg/totalmayhem" target="_blank">
+            <font-awesome-icon
+              :icon="['fab', 'discord']"
               class="ms-2"
               style="font-size: 24px"
             />
