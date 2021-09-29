@@ -5,11 +5,24 @@
         You are about to delete today's daily update. Are you sure?
       </p>
       <template #modal-footer="{ cancel }">
-        <b-button variant="primary" @click="undoDaily">
+        <b-button variant="primary" @click="$bvModal.hide('undo-modal'), $bvModal.show('undo-modal-deletetype')">
           Yes I'm sure
         </b-button>
         <b-button variant="secondary" @click="cancel">
           Cancel
+        </b-button>
+      </template>
+    </b-modal>
+    <b-modal id="undo-modal-deletetype" ref="undo-modal-deletetype" centered title="Undo daily">
+      <p class="my-4">
+        Do you want to do overwite or delete today's arcade mode? You usually overwrite when the arcade mode has changed. You delete if you made an accident
+      </p>
+      <template #modal-footer="{ }">
+        <b-button variant="primary" @click="undoDaily(false)">
+          I'd like to overwrite
+        </b-button>
+        <b-button variant="secondary" @click="undoDaily(true)">
+          Delete that shit
         </b-button>
       </template>
     </b-modal>
@@ -144,10 +157,8 @@ export default {
         this.$toasted.error('Couldn\'t load today\'s arcade, API might be down').goAway(7500)
       })
     },
-    undoDaily () {
-      this.$refs['undo-modal'].hide()
-
-      this.$axios.post('/api/v1/overwatch/undo').then((response) => {
+    undoDaily (deletetype) {
+      this.$axios.post(`/api/v1/overwatch/undo/${deletetype}`).then((response) => {
         this.$toasted.success('Daily has been undone').goAway(2500)
         this.$router.push({ path: '/submit/overwatch' })
       })
