@@ -126,7 +126,9 @@
       "CTF Modes": "CTF モード",
       "Bulletproof Barriers": "バレットプルーフ・バリア",
       "Sympathy Gains": "シンパシー・ゲイン",
-      "Thunderstorm": "サンダーストーム"
+      "Thunderstorm": "サンダーストーム",
+      "Malevento Deathmatch": "MALEVENTO デスマッチ",
+      "Malevento TDM": "MALEVENTO チーム・デスマッチ"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "ハンター集団 VS 1匹のイエティ。イエティがお肉を4個食べたら…狩る側が狩られる側になる！",

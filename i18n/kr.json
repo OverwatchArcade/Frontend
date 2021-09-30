@@ -93,7 +93,7 @@
       "Paris": "파리",
       "Hero Gauntlet": "영웅 건틀릿",
       "Havana": "하바나",
-      "Mirrored Deathmatch": "미러전 데스매치",
+      "Mirrored Deathmatch": "미러전 데스매치\n<tx0C0000000001FEE9>",
       "Quick Play Classic": "빠른 대전 클래식",
       "Snowball Deathmatch": "눈싸움 데스매치",
       "Skirmish": "연습 전투",
@@ -126,7 +126,9 @@
       "CTF Modes": "깃발 뺏기 모드",
       "Bulletproof Barriers": "방탄 방벽",
       "Sympathy Gains": "역공감성 이득",
-      "Thunderstorm": "천둥폭풍"
+      "Thunderstorm": "천둥폭풍",
+      "Malevento Deathmatch": "말레벤토 데스매치",
+      "Malevento TDM": "말레벤토 팀 데스매치"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "모험심 넘치는 사냥꾼들이 힘을 모아 예티 한 마리를 잡으려 합니다. 조심하세요! 예티가 고기를 4개 먹으면 도망쳐야 합니다!",
