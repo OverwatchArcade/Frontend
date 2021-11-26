@@ -51,11 +51,6 @@ export default {
     }
   },
 
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {
-    proxy: true
-  },
-
   fontawesome: {
     icons: {
       solid: ['faQuestionCircle', 'faKey', 'faSignInAlt', 'faPlusCircle'],
@@ -66,16 +61,13 @@ export default {
     }
   },
 
+  axios: {
+    baseURL: process.env.API_HOST || 'https://localhost:5001'
+  },
+
   publicRuntimeConfig: {
     discord_clientid: process.env.DISCORD_CLIENTID,
     discord_redirecturi: process.env.DISCORD_REDIRECTURI
-  },
-
-  proxy: {
-    '/api/v1/': {
-      target: process.env.API_HOST || 'https://localhost:5001',
-      secure: false
-    }
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
