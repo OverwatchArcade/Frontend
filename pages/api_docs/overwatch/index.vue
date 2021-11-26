@@ -22,7 +22,7 @@
           <tbody>
             <tr>
               <td>URL</td>
-              <td><a href="/api/v1/overwatch/today">/api/v1/overwatch/today</a></td>
+              <td><a href="https://api.overwatcharcade.today/api/v1/overwatch/today">/api/v1/overwatch/today</a></td>
             </tr>
             <tr>
               <td>Method</td>

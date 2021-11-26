@@ -22,7 +22,7 @@
           <tbody>
             <tr>
               <td>URL</td>
-              <td><a href="/api/v1/contributor">/api/v1/contributor</a></td>
+              <td><a href="https://api.overwatcharcade.today/api/v1/contributor">/api/v1/contributor</a></td>
             </tr>
             <tr>
               <td>Method</td>
@@ -46,7 +46,7 @@
           <tbody>
             <tr>
               <td>URL</td>
-              <td><a href="/api/v1/contributor/system">/api/v1/contributor/:username</a></td>
+              <td><a href="https://api.overwatcharcade.today/api/v1/contributor/system">/api/v1/contributor/:username</a></td>
             </tr>
             <tr>
               <td>Method</td>
