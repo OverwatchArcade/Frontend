@@ -1614,7 +1614,7 @@
     consola "^2.15.3"
     defu "^5.0.0"
 
-"@nuxtjs/eslint-config@^6":
+"@nuxtjs/eslint-config@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-6.0.1.tgz#305450a71e362c26f99b3a7130be960015a96c9b"
   integrity sha512-NISrmMx4J2usVDVLG7WFwTdfQaznHf/b2aKTb1o0TCxxXdY30UHLqEH+3MqpjY+0+UPM06YswFmOBjOg5y2BXQ==
