@@ -18,9 +18,11 @@ export default {
       }
     },
     login (code) {
+      const redirectUri = this.$config.discord_redirecturi
+
       this.$auth
         .loginWith('local', {
-          params: { code }
+          params: { code, redirectUri }
         })
         .then(this.$toasted.success('Succesfully logged in').goAway(2500))
         .catch((e) => {
