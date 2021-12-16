@@ -15,6 +15,7 @@
           label="value"
           track-by="id"
           placeholder="Select label"
+          :show-labels="false"
           :allow-empty="false"
           @input="previewLabelTile(0, multiselect.labels[0])"
         />
@@ -23,6 +24,7 @@
           :options="arcademodes"
           :custom-label="multiSelectLabel"
           track-by="id"
+          :show-labels="false"
           :allow-empty="false"
           @input="onChange(multiselect.arcademodes[0], 0)"
         />
@@ -37,6 +39,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(1, multiselect.labels[1])"
             />
@@ -45,6 +48,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[1], 1)"
             />
@@ -57,6 +61,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(2, multiselect.labels[2])"
             />
@@ -65,6 +70,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[2], 2)"
             />
@@ -77,6 +83,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(3, multiselect.labels[3])"
             />
@@ -85,6 +92,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[3], 3)"
             />
@@ -99,6 +107,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(4, multiselect.labels[4])"
             />
@@ -107,6 +116,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[4], 4)"
             />
@@ -119,6 +129,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(5, multiselect.labels[5])"
             />
@@ -127,6 +138,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[5], 5)"
             />
@@ -139,6 +151,7 @@
               label="value"
               track-by="id"
               placeholder="Select label"
+              :show-labels="false"
               :allow-empty="false"
               @input="previewLabelTile(6, multiselect.labels[6])"
             />
@@ -147,6 +160,7 @@
               :options="arcademodes"
               :custom-label="multiSelectLabel"
               track-by="id"
+              :show-labels="false"
               :allow-empty="false"
               @input="onChange(multiselect.arcademodes[6], 6)"
             />
