@@ -1,9 +1,18 @@
 <template>
   <div v-if="Object.keys(gamemode).length > 0" class="card">
     <span
-      v-if="gamemode.label"
+      v-if="$auth.loggedIn"
       class="card-ribbon"
       :class="getRibbonColor(gamemode.label)"
+      @click="toggleLabel"
+    >
+      {{ gamemode.label ? gamemode.label : 'No Label' }}
+    </span>
+    <span
+      v-else-if="gamemode.label && !$auth.loggedIn"
+      class="card-ribbon"
+      :class="getRibbonColor(gamemode.label)"
+      @click="toggleLabel"
     >
       {{ gamemode.label }}
     </span>
@@ -63,6 +72,10 @@ export default {
   props: {
     gamemode: {
       type: Object,
+      default: null
+    },
+    toggleLabel: {
+      type: Function,
       default: null
     }
   },

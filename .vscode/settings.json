@@ -1,5 +1,10 @@
 {
-    "html-css-class-completion.includeGlobPattern": "**/*.{css,html}",
-    "vetur.format.enable": false,
-    "discord.enabled": false
+  "html-css-class-completion.includeGlobPattern": "**/*.{css,html}",
+  "vetur.format.enable": false,
+  "discord.enabled": true,
+  // Set the default
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }

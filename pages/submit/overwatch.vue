@@ -8,17 +8,7 @@
     </div>
     <div class="row">
       <div class="col-xl-4 col-md-12 largeTile mb-4">
-        <arcadetile :gamemode="getTileObjectByIndex(0)" />
-        <multiselect
-          v-model="multiselect.labels[0]"
-          :options="labels"
-          label="value"
-          track-by="id"
-          placeholder="Select label"
-          :show-labels="false"
-          :allow-empty="false"
-          @input="previewLabelTile(0, multiselect.labels[0])"
-        />
+        <arcadetile :gamemode="getTileObjectByIndex(0)" :toggle-label="() => toggleLabel(0)" />
         <multiselect
           v-model="multiselect.arcademodes[0]"
           :options="arcademodes"
@@ -32,17 +22,7 @@
       <div class="col-xl-8 col-md-12">
         <div class="row mb-4">
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(1)" />
-            <multiselect
-              v-model="multiselect.labels[1]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(1, multiselect.labels[1])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(1)" :toggle-label="() => toggleLabel(1)" />
             <multiselect
               v-model="multiselect.arcademodes[1]"
               :options="arcademodes"
@@ -54,17 +34,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(2)" />
-            <multiselect
-              v-model="multiselect.labels[2]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(2, multiselect.labels[2])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(2)" :toggle-label="() => toggleLabel(2)" />
             <multiselect
               v-model="multiselect.arcademodes[2]"
               :options="arcademodes"
@@ -76,17 +46,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(3)" />
-            <multiselect
-              v-model="multiselect.labels[3]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(3, multiselect.labels[3])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(3)" :toggle-label="() => toggleLabel(3)" />
             <multiselect
               v-model="multiselect.arcademodes[3]"
               :options="arcademodes"
@@ -100,17 +60,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(4)" />
-            <multiselect
-              v-model="multiselect.labels[4]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(4, multiselect.labels[4])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(4)" :toggle-label="() => toggleLabel(4)" />
             <multiselect
               v-model="multiselect.arcademodes[4]"
               :options="arcademodes"
@@ -122,17 +72,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(5)" />
-            <multiselect
-              v-model="multiselect.labels[5]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(5, multiselect.labels[5])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(5)" :toggle-label="() => toggleLabel(5)" />
             <multiselect
               v-model="multiselect.arcademodes[5]"
               :options="arcademodes"
@@ -144,17 +84,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(6)" />
-            <multiselect
-              v-model="multiselect.labels[6]"
-              :options="labels"
-              label="value"
-              track-by="id"
-              placeholder="Select label"
-              :show-labels="false"
-              :allow-empty="false"
-              @input="previewLabelTile(6, multiselect.labels[6])"
-            />
+            <arcadetile :gamemode="getTileObjectByIndex(6)" :toggle-label="() => toggleLabel(6)" />
             <multiselect
               v-model="multiselect.arcademodes[6]"
               :options="arcademodes"
@@ -187,7 +117,6 @@ export default {
   data () {
     return {
       multiselect: {
-        labels: [],
         arcademodes: []
       },
       submit: {
@@ -254,6 +183,20 @@ export default {
     onChange (val, id) {
       this.previewArcadeModeTile(id, val)
     },
+    toggleLabel (tileId) {
+      const currentLabelid = this.submit.TileModes[tileId].labelId
+      let nextLabelId = currentLabelid + 1
+      console.log(`Label length is ${this.labels.length}`)
+      if (nextLabelId > this.labels.length) {
+        console.log('Label ID Reset!')
+        nextLabelId = 1
+      }
+      console.log(`Current label id ${currentLabelid}, next one will be ${nextLabelId}`)
+      const label = this.labels.filter(function (item) { return (item.id === nextLabelId) })
+      console.log(label)
+      this.submit.TileModes[tileId].labelId = label[0].id
+      this.daily.modes[tileId].label = label[0].value
+    },
     findLabelIdByValue (labelValue) {
       const foundLabel = this.labels.filter(function (item) { return (item.value === labelValue) })
       // Returns label id if found, else return "no label" with default value 1
@@ -276,19 +219,15 @@ export default {
      */
     setCorrectLabelId () {
       const tileModes = this.submit.TileModes
-      const multiSelectLabels = this.multiselect.labels
-      const labels = this.labels
       const dailyModes = this.daily.modes
       const func = this.findLabelIdByValue
 
       dailyModes.forEach(function (key, val) {
         const labelId = func(key.label)
         tileModes[val].labelId = labelId
-        multiSelectLabels[val] = labels.filter(function (item) { return (item.id === labelId) })
       })
 
       this.submit.TileModes = tileModes
-      this.multiselect.labels = multiSelectLabels
     },
     /*
      * Change arcade from API response to corresponding arcadeModeId in submit
@@ -342,7 +281,7 @@ export default {
         .then((response) => {
           this.arcademodes = response.data.data
         })
-        .catch(function (e) {
+        .catch(function () {
           $toasted.error("ERROR - Couldn't fetch arcademodes").goAway(2500)
         })
     },
@@ -363,7 +302,7 @@ export default {
       this.$axios.setToken(this.$auth.strategy.token.get(), 'Bearer')
       await this.$axios
         .post('/api/v1/overwatch/submit', this.submit)
-        .then((response) => {
+        .then(() => {
           $toasted.success('Thank you for your contribution!').goAway(5000)
           $toasted.info('A tweet will be sent shortly :)').goAway(5000)
           this.$router.push({ path: '/overwatch' })
