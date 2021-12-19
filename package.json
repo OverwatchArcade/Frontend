@@ -24,7 +24,7 @@
     "nuxt": "^2.15.5",
     "nuxt-i18n": "^6.27.0",
     "qs": "^6.10.1",
-    "sass": "^1.32.12",
+    "sass": "^1.45.0",
     "sass-loader": "^10.1.1",
     "timeago.js": "^4.0.2",
     "vue": "^2.6.12",
@@ -47,7 +47,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^27.1.0",
+    "jest": "^27.4.4",
     "prettier": "^2.3.0",
     "vue-jest": "^3.0.7"
   }
