@@ -186,14 +186,10 @@ export default {
     toggleLabel (tileId) {
       const currentLabelid = this.submit.TileModes[tileId].labelId
       let nextLabelId = currentLabelid + 1
-      console.log(`Label length is ${this.labels.length}`)
       if (nextLabelId > this.labels.length) {
-        console.log('Label ID Reset!')
         nextLabelId = 1
       }
-      console.log(`Current label id ${currentLabelid}, next one will be ${nextLabelId}`)
       const label = this.labels.filter(function (item) { return (item.id === nextLabelId) })
-      console.log(label)
       this.submit.TileModes[tileId].labelId = label[0].id
       this.daily.modes[tileId].label = label[0].value
     },
@@ -202,17 +198,14 @@ export default {
       // Returns label id if found, else return "no label" with default value 1
       return (foundLabel[0]?.id ?? 1)
     },
-    /* Gets called onChange arcademode select */
+    /* Gets called onChange multiselect arcademode */
     previewArcadeModeTile (tileId, data) {
-      const label = this.daily.modes[tileId].label // Saving this so we can overwrite later
-      this.daily.modes[tileId] = data
-      this.daily.modes[tileId].label = label
+      /* Arcade preview */
+      this.daily.modes[tileId].name = data.name
+      this.daily.modes[tileId].players = data.players
+      this.daily.modes[tileId].image = data.image
+      /* Submit data */
       this.submit.TileModes[tileId].arcadeModeId = data.id
-    },
-    /* Gets called onChange label select */
-    previewLabelTile (tileId, data) {
-      this.daily.modes[tileId].label = data.value
-      this.submit.TileModes[tileId].labelId = data.id
     },
     /*
      * Change label from API response to corresponding LabelId in submit
@@ -248,7 +241,7 @@ export default {
       this.submit.TileModes = tileModes
     },
     /*
-     * Get mode of tile by index. Returns empty object  on non index to prevent error
+     * Get mode of tile by index. Returns empty object on non index to prevent error
      */
     getTileObjectByIndex (tileIndex) {
       if (typeof this.daily.modes[tileIndex] !== 'undefined') {
