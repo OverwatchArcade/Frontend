@@ -8,7 +8,7 @@
     </div>
     <div class="row">
       <div class="col-xl-4 col-md-12 largeTile mb-4">
-        <arcadetile :gamemode="getTileObjectByIndex(0)" :toggle-label="() => toggleLabel(0)" />
+        <arcadetilesubmit :gamemode="getTileObjectByIndex(0)" :toggle-label="() => toggleLabel(0)" />
         <multiselect
           v-model="multiselect.arcademodes[0]"
           :options="arcademodes"
@@ -22,7 +22,7 @@
       <div class="col-xl-8 col-md-12">
         <div class="row mb-4">
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(1)" :toggle-label="() => toggleLabel(1)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(1)" :toggle-label="() => toggleLabel(1)" />
             <multiselect
               v-model="multiselect.arcademodes[1]"
               :options="arcademodes"
@@ -34,7 +34,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(2)" :toggle-label="() => toggleLabel(2)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(2)" :toggle-label="() => toggleLabel(2)" />
             <multiselect
               v-model="multiselect.arcademodes[2]"
               :options="arcademodes"
@@ -46,7 +46,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(3)" :toggle-label="() => toggleLabel(3)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(3)" :toggle-label="() => toggleLabel(3)" />
             <multiselect
               v-model="multiselect.arcademodes[3]"
               :options="arcademodes"
@@ -60,7 +60,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(4)" :toggle-label="() => toggleLabel(4)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(4)" :toggle-label="() => toggleLabel(4)" />
             <multiselect
               v-model="multiselect.arcademodes[4]"
               :options="arcademodes"
@@ -72,7 +72,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(5)" :toggle-label="() => toggleLabel(5)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(5)" :toggle-label="() => toggleLabel(5)" />
             <multiselect
               v-model="multiselect.arcademodes[5]"
               :options="arcademodes"
@@ -84,7 +84,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <arcadetile :gamemode="getTileObjectByIndex(6)" :toggle-label="() => toggleLabel(6)" />
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(6)" :toggle-label="() => toggleLabel(6)" />
             <multiselect
               v-model="multiselect.arcademodes[6]"
               :options="arcademodes"
@@ -108,10 +108,12 @@
 
 <script>
 import Multiselect from 'vue-multiselect'
+import Arcadetilesubmit from '~/components/arcadetilesubmit.vue'
 export default {
   name: 'OWSubmit',
   components: {
-    Multiselect
+    Multiselect,
+    Arcadetilesubmit
   },
   middleware: 'auth',
   data () {
