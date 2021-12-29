@@ -1,11 +1,11 @@
 <template>
   <div v-if="Object.keys(gamemode).length > 0" class="card">
     <span
-      v-if="gamemode.label"
       class="card-ribbon"
       :class="getRibbonColor(gamemode.label)"
+      @click="toggleLabel"
     >
-      {{ gamemode.label }}
+      {{ gamemode.label ? gamemode.label : 'No Label' }}
     </span>
     <img class="card-img-top" :src="gamemode.image">
     <div class="card-body">
@@ -56,13 +56,17 @@
 <script>
 import { ContentLoader } from 'vue-content-loader'
 export default {
-  name: 'ArcadeTile',
+  name: 'ArcadeTileSubmit',
   components: {
     ContentLoader
   },
   props: {
     gamemode: {
       type: Object,
+      default: null
+    },
+    toggleLabel: {
+      type: Function,
       default: null
     }
   },
@@ -85,5 +89,9 @@ export default {
 .card-img-top {
   object-fit: cover;
   object-position: top;
+}
+
+.card-ribbon {
+  cursor: pointer;
 }
 </style>
