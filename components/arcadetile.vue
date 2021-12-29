@@ -12,7 +12,6 @@
       v-else-if="gamemode.label && !$auth.loggedIn"
       class="card-ribbon"
       :class="getRibbonColor(gamemode.label)"
-      @click="toggleLabel"
     >
       {{ gamemode.label }}
     </span>
