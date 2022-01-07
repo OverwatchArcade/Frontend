@@ -82,7 +82,7 @@
     </div>
     <div id="cards">
       <div class="row">
-        <div class="col-xl-4 col-md-12 largeTile mb-4 mb-xl-0">
+        <div class="col-xl-4 col-md-12 largeTile mb-4">
           <arcadetile :gamemode="getTileObjectByIndex(0)" />
         </div>
         <div class="col-xl-8 col-md-12 mb-4">
