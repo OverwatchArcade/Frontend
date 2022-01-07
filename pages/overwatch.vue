@@ -85,26 +85,24 @@
         <div class="col-xl-4 col-md-12 largeTile mb-4 mb-xl-0">
           <arcadetile :gamemode="getTileObjectByIndex(0)" />
         </div>
-        <div class="col-xl-8 col-md-12">
+        <div class="col-xl-8 col-md-12 mb-4">
           <div class="row mb-4">
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(1)" />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(2)" />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(3)" />
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(4)" />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(5)" />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(6)" />
             </div>
           </div>
