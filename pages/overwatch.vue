@@ -85,8 +85,8 @@
         <div class="col-xl-4 col-md-12 largeTile mb-4">
           <arcadetile :gamemode="getTileObjectByIndex(0)" />
         </div>
-        <div class="col-xl-8 col-md-12 mb-4">
-          <div class="row mb-4">
+        <div class="col-xl-8 col-md-12">
+          <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(1)" />
             </div>
@@ -110,7 +110,7 @@
       </div>
     </div>
     <client-only>
-      <div v-if="$auth.loggedIn" class="d-grid gap-2 my-5">
+      <div v-if="$auth.loggedIn" class="d-grid gap-2">
         <nuxt-link v-if="!api.isToday" to="/submit/overwatch" class="btn btn-primary">
           Update
         </nuxt-link>

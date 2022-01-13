@@ -98,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="d-grid gap-2 my-5">
+    <div class="d-grid gap-2">
       <button class="btn btn-warning btn-block" @click="submitDaily()">
         Submit
       </button>
