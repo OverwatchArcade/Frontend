@@ -168,6 +168,7 @@ export default {
         .post('/api/v1/overwatch/event/' + this.overwatch.event)
         .then(() => {
           this.$toasted.success("You've succesfully changed event, it might take up to 5 seconds to change").goAway(5000)
+          this.$toasted.success("Don't forget to update the labels when it's the first daily of a new event :)").goAway(8000)
           this.getBackgroundImage()
         })
         .catch(() => {
