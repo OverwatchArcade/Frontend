@@ -33,7 +33,7 @@
     <Nuxt />
     <section id="footer" class="mt-4">
       <div class="row">
-        <div class="col-12 col-md-9 mb-sm-5">
+        <div class="col-12 col-md-9 mb-5 col-md-0">
           <p class="small">
             {{ $t('general.footer.copyright_materials') }}<br>
             {{ $t('general.footer.copyright_site') }}
@@ -50,21 +50,21 @@
           <a href="//github.com/OverwatchArcade" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'github']"
-              style="font-size: 24px"
+              style="height: 28px"
             />
           </a>
           <a href="//twitter.com/owarcade" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'twitter']"
               class="ms-2"
-              style="font-size: 24px"
+              style="height: 28px"
             />
           </a>
           <a href="https://discord.gg/totalmayhem" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'discord']"
               class="ms-2"
-              style="font-size: 24px"
+              style="height: 28px"
             />
           </a>
         </div>
