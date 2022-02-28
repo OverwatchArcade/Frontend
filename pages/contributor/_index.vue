@@ -184,6 +184,7 @@
                   title="The most common day the user contributed at"
                 ><font-awesome-icon
                   :icon="['fas', 'question-circle']"
+                  style="height: 14px"
                 /></span>
               </h6>
             </div>
