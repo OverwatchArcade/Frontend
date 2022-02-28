@@ -43,7 +43,7 @@
               <h6 class="mb-0">
                 <font-awesome-icon
                   :icon="['fab', 'discord']"
-                  :style="{ color: '#7289DA' }"
+                  :style="{ color: '#7289DA', height: '24px' }"
                 />
               </h6>
               <span v-if="contributor.profile.social" class="text-secondary">{{
@@ -63,7 +63,7 @@
               <h6 class="mb-0">
                 <font-awesome-icon
                   :icon="['fab', 'battle-net']"
-                  :style="{ color: '#0566b0' }"
+                  :style="{ color: '#0566b0', height: '24px' }"
                 />
               </h6>
               <span v-if="contributor.profile.social" class="text-secondary">{{
@@ -83,7 +83,7 @@
               <h6 class="mb-0">
                 <font-awesome-icon
                   :icon="['fab', 'steam']"
-                  :style="{ color: '#000000' }"
+                  :style="{ color: '#000000', height: '24px' }"
                 />
               </h6>
               <span
@@ -108,7 +108,7 @@
               <h6 class="mb-0">
                 <font-awesome-icon
                   :icon="['fab', 'twitter']"
-                  :style="{ color: '#1DA1F2' }"
+                  :style="{ color: '#1DA1F2', height: '24px' }"
                 />
               </h6>
               <span
