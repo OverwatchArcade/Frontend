@@ -344,7 +344,7 @@ export default {
       const contributeTableHistoryDays = 365
       const today = new Date()
       const dates = []
-      for (let i = 1; i < contributeTableHistoryDays; i++) {
+      for (let i = 0; i < contributeTableHistoryDays; i++) {
         const date = new Date()
         date.setDate(today.getDate() - i)
         const isContributedDay = contributedDays.includes(date.toDateString())
