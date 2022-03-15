@@ -83,6 +83,18 @@
               @input="onChange(multiselect.arcademodes[5], 5)"
             />
           </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <arcadetilesubmit :gamemode="getTileObjectByIndex(6)" :toggle-label="() => toggleLabel(6)" />
+            <multiselect
+              v-model="multiselect.arcademodes[6]"
+              :options="arcademodes"
+              :custom-label="multiSelectLabel"
+              track-by="id"
+              :show-labels="false"
+              :allow-empty="false"
+              @input="onChange(multiselect.arcademodes[6], 6)"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -141,6 +153,11 @@ export default {
             arcadeModeId: 0,
             tileId: 6,
             labelId: 0
+          },
+          {
+            arcadeModeId: 0,
+            tileId: 7,
+            labelId: 0
           }
         ]
       },
@@ -152,7 +169,7 @@ export default {
           username: '',
           group: ''
         },
-        modes: [{}, {}, {}, {}, {}, {}]
+        modes: [{}, {}, {}, {}, {}, {}, {}]
       }
     }
   },
@@ -240,8 +257,8 @@ export default {
         .get('/api/v1/overwatch/today')
         .then((response) => {
           this.daily = response.data.data
-          // Makes sure all daily slots. Overwatch currently has 6 daily slots
-          for (let i = this.daily.modes.length; i < 6; i++) {
+          // Makes sure all daily slots. Overwatch currently has 7 daily slots
+          for (let i = this.daily.modes.length; i < 7; i++) {
             this.daily.modes.push({})
           }
           this.setCorrectLabelId()

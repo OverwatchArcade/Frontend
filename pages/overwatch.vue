@@ -102,6 +102,9 @@
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
               <arcadetile :gamemode="getTileObjectByIndex(5)" />
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+              <arcadetile :gamemode="getTileObjectByIndex(6)" />
+            </div>
           </div>
         </div>
       </div>
