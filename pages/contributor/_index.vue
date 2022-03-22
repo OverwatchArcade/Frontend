@@ -326,6 +326,8 @@ export default {
     this.$axios.get('/api/v1/contributor/' + username).then((response) => {
       // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
+      contributor.profile.game.overwatch.arcadeModes = contributor.profile.game.overwatch.arcadeModes.map(i => '/api' + i.image)
+      console.log(contributor.profile.game.overwatch.arcadeModes)
       this.contributor = Object.assign(this.contributor, contributor)
       this.data.contributeTable = this.calculateContributeTable(response.data.data.stats.contributionDays)
     })
