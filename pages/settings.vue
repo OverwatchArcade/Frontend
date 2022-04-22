@@ -271,7 +271,7 @@ export default {
         })
     },
     getSettingsOptions () {
-      this.$axios.get('/api/v1/overwatch/arcademodes').then((response) => { this.overwatch.arcadeModes = response.data.data })
+      this.$axios.get('/api/v1/contributor/config/overwatch/arcademodes').then((response) => { this.overwatch.arcadeModes = response.data.data })
       this.$axios.get('/api/v1/contributor/config/countries').then((response) => { this.countries = response.data.data })
       this.$axios.get('/api/v1/contributor/config/overwatch/heroes').then((response) => { this.overwatch.heroes = response.data.data })
       this.$axios.get('/api/v1/contributor/config/overwatch/maps').then((response) => { this.overwatch.maps = response.data.data })
