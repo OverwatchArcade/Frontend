@@ -219,45 +219,51 @@
           header-tag="header"
           class="mt-3"
         >
-          <h5>{{ $t('general.profile.favourite gamemodes') }}</h5>
-          <div class="row mb-4">
-            <div class="col-12">
+          <h5 class="mb-2">
+            {{ $t('general.profile.favourite gamemodes') }}
+          </h5>
+          <div class="d-flex flex-row">
+            <div>
               <b-img
                 v-for="value in contributor.profile.game.overwatch.arcadeModes"
                 :key="value.name"
                 v-b-tooltip.hover
                 :title="value.name"
-                :src="value.image"
+                :src="value.url"
                 :alt="value.name"
                 class="owthumb"
                 height="128px"
               />
             </div>
           </div>
-          <h5>{{ $t('general.profile.favourite heroes') }}</h5>
-          <div class="row mb-4">
-            <div class="col-12">
+          <h5 class="mt-4 mb-2">
+            {{ $t('general.profile.favourite heroes') }}
+          </h5>
+          <div class="d-flex flex-row">
+            <div>
               <b-img
                 v-for="value in contributor.profile.game.overwatch.heroes"
                 :key="value.name"
                 v-b-tooltip.hover
                 :title="value.name"
-                :src="value.image"
+                :src="value.url"
                 :alt="value.name"
                 class="owthumb"
                 height="128px"
               />
             </div>
           </div>
-          <h5>{{ $t('general.profile.favourite maps') }}</h5>
-          <div class="row">
-            <div class="col-12">
+          <h5 class="mt-4 mb-2">
+            {{ $t('general.profile.favourite maps') }}
+          </h5>
+          <div class="d-flex flex-row">
+            <div>
               <b-img
                 v-for="value in contributor.profile.game.overwatch.maps"
                 :key="value.name"
                 v-b-tooltip.hover
                 :title="value.name"
-                :src="value.image"
+                :src="value.url"
                 :alt="value.name"
                 class="owthumb"
                 height="128px"
