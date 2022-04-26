@@ -7,6 +7,11 @@
         </nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/overwatch2">
+          Overwatch 2
+        </nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/contributors">
           {{ $t('general.menu.contributors') }}
         </nuxt-link>
