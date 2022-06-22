@@ -63,7 +63,7 @@ export default {
   },
 
   axios: {
-    baseURL: process.env.API_HOST || 'https://localhost:5001'
+    baseURL: process.env.API_HOST || 'https://localhost:7125'
   },
 
   publicRuntimeConfig: {
