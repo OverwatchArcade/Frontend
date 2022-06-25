@@ -147,9 +147,9 @@ export default {
     },
     getBackgroundImage () {
       this.$axios.get('/api/v1/overwatch/event/wallpaper').then((response) => {
-        // document.documentElement.style.background =
-        //   "url(' " + response.data.data + " ') no-repeat center center fixed"
-        // document.documentElement.style.backgroundSize = 'cover'
+        document.documentElement.style.background =
+          "url(' " + response.data.data + " ') no-repeat center center fixed"
+        document.documentElement.style.backgroundSize = 'cover'
       })
     },
     getOverwatchEvents () {
