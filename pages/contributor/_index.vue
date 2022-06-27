@@ -143,7 +143,7 @@
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.profile.personal.about }}
+              {{ contributor.profile.personal.about || '-' }}
             </div>
           </div>
         </b-card>
@@ -160,7 +160,7 @@
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.stats.contributionCount }}
+              {{ contributor.stats && contributor.stats.contributionCount || 0 }}
             </div>
           </div>
           <hr>
@@ -183,13 +183,13 @@
                   v-b-tooltip.hover
                   title="The most common day the user contributed at"
                 ><font-awesome-icon
-                  :icon="['fas', 'question-circle']"
+                  :icon="['fas', 'circle-question']"
                   style="height: 14px"
                 /></span>
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.stats.favouriteContributionDay }}
+              {{ contributor.stats && contributor.stats.favouriteContributionDay || "-" }}
             </div>
           </div>
           <hr>

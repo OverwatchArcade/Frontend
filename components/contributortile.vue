@@ -8,11 +8,11 @@
     <div class="card-body">
       <h4>{{ contributor.username }}</h4>
       <p>
-        {{ $t('general.contributor listing.contributor since', {0: formatDate(contributor.registeredAt), 1: contributor.stats.contributionCount}) }}
+        {{ $t('general.contributor listing.contributor since', {0: formatDate(contributor.registeredAt), 1: contributor.stats && contributor.stats.contributionCount || 0}) }}
       </p>
       <span
         class="small text-muted"
-      >{{ $t('general.contributor listing.contributor last contributed', {0: formatDate(contributor.stats.lastContributedAt)}) }}</span>
+      >{{ $t('general.contributor listing.contributor last contributed', {0: formatDate(contributor.stats && contributor.stats.lastContributedAt || '-')}) }}</span>
     </div>
     <div class="card-footer clearfix">
       <nuxt-link

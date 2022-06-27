@@ -54,7 +54,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faQuestionCircle', 'faKey', 'faSignInAlt', 'faPlusCircle'],
+      solid: ['faCircleQuestion', 'faKey', 'faSignInAlt', 'faPlusCircle'],
       regular: [],
       light: [],
       duotone: [],

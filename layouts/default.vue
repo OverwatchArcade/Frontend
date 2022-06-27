@@ -47,26 +47,25 @@
           <p class="small">
             <a href="https://github.com/OverwatchArcade/Frontend/tree/main/i18n">📑 Help translate this site</a>
           </p>
-          <a href="//github.com/OverwatchArcade" target="_blank">
-            <font-awesome-icon
-              :icon="['fab', 'github']"
-              style="height: 28px"
-            />
-          </a>
-          <a href="//twitter.com/owarcade" target="_blank">
-            <font-awesome-icon
-              :icon="['fab', 'twitter']"
-              class="ms-2"
-              style="height: 28px"
-            />
-          </a>
-          <a href="https://discord.gg/totalmayhem" target="_blank">
-            <font-awesome-icon
-              :icon="['fab', 'discord']"
-              class="ms-2"
-              style="height: 28px"
-            />
-          </a>
+          <div id="socials">
+            <a href="//github.com/OverwatchArcade" target="_blank">
+              <font-awesome-icon
+                :icon="['fab', 'github']"
+              />
+            </a>
+            <a href="//twitter.com/owarcade" target="_blank">
+              <font-awesome-icon
+                :icon="['fab', 'twitter']"
+                class="ms-2"
+              />
+            </a>
+            <a href="https://discord.gg/totalmayhem" target="_blank">
+              <font-awesome-icon
+                :icon="['fab', 'discord']"
+                class="ms-2"
+              />
+            </a>
+          </div>
         </div>
         <div class="col-12 col-md-3">
           <Multiselect
