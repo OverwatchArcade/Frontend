@@ -12,7 +12,7 @@
       </p>
       <span
         class="small text-muted"
-      >{{ $t('general.contributor listing.contributor last contributed', {0: formatDate(contributor.stats && contributor.stats.lastContributedAt || '-')}) }}</span>
+      >{{ $t('general.contributor listing.contributor last contributed', {0: formatDate(contributor.stats && contributor.stats.lastContributedAt || null)}) }}</span>
     </div>
     <div class="card-footer clearfix">
       <nuxt-link
