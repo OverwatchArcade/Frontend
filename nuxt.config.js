@@ -1,5 +1,5 @@
 export default {
-  target: 'server',
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Overwatch arcade gamemodes - daily updated and get notified easily',
