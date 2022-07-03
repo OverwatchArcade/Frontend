@@ -110,7 +110,7 @@
             </div>
             <div class="mb-2">
               <label for="textarea">About</label>
-              <textarea v-model="settings.personal.about" cols="40" rows="5" class="form-control" />
+              <textarea v-model="settings.personal.text" cols="40" rows="5" class="form-control" />
             </div>
           </div>
           <div class="card-footer text-end">
@@ -259,12 +259,13 @@ export default {
       bodyFormData.append('Avatar', this.uploadedAvatar)
 
       this.$axios
-        .post('/api/v1/contributor/auth/avatar', bodyFormData, { headers: { 'Content-Type': 'multipart/form-data' } }).then((response) => {
+        .post('/api/v1/contributor/avatar', bodyFormData, { headers: { 'Content-Type': 'multipart/form-data' } }).then(() => {
           this.$toasted.success('Avatar uploaded!').goAway(2500)
           this.$auth.fetchUser()
         })
         .catch((error) => {
-          const messages = error.response.data.message.split(',')
+          console.log(error.response)
+          const messages = error.response.data.errorMessages
           messages.forEach((e) => {
             this.$toasted.error(e).goAway(2500)
           })
@@ -278,7 +279,7 @@ export default {
     },
     saveProfile () {
       this.$axios
-        .post('/api/v1/contributor/auth/profile', this.settings)
+        .post('/api/v1/contributor/profile', this.settings)
         .then(() => {
           this.$toasted.success('Profile saved!').goAway(2500)
         })
@@ -286,7 +287,8 @@ export default {
           if (error.response.status === 400) {
             this.$toasted.error('Bad request').goAway(2500)
           } else {
-            const messages = error.response.data.message.split(',')
+            console.log(error.response)
+            const messages = error.response.data.errorMessages
             messages.forEach((e) => {
               this.$toasted.error(e).goAway(2500)
             })

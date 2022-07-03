@@ -25,6 +25,7 @@
         </div>
 
         <b-card
+          v-if="Object.values(contributor.profile.social).some(v => v)"
           header-html="<h4>Social</h4>"
           header-tag="header"
           class="mt-3"
@@ -143,7 +144,7 @@
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.profile.personal.about }}
+              {{ contributor.profile.personal.text || '-' }}
             </div>
           </div>
         </b-card>
@@ -160,7 +161,7 @@
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.stats.contributionCount }}
+              {{ contributor.stats && contributor.stats.contributionCount || 0 }}
             </div>
           </div>
           <hr>
@@ -183,13 +184,13 @@
                   v-b-tooltip.hover
                   title="The most common day the user contributed at"
                 ><font-awesome-icon
-                  :icon="['fas', 'question-circle']"
+                  :icon="['fas', 'circle-question']"
                   style="height: 14px"
                 /></span>
               </h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ contributor.stats.favouriteContributionDay }}
+              {{ contributor.stats && contributor.stats.favouriteContributionDay || "-" }}
             </div>
           </div>
           <hr>
@@ -215,59 +216,66 @@
         </b-card>
 
         <b-card
+          v-if="Object.values(contributor.profile.game.overwatch).some(v => v)"
           header-html="<h4>Overwatch</h4>"
           header-tag="header"
           class="mt-3"
         >
-          <h5 class="mb-2">
-            {{ $t('general.profile.favourite gamemodes') }}
-          </h5>
-          <div class="d-flex flex-row">
-            <div>
-              <b-img
-                v-for="value in contributor.profile.game.overwatch.arcadeModes"
-                :key="value.name"
-                v-b-tooltip.hover
-                :title="value.name"
-                :src="value.url"
-                :alt="value.name"
-                class="owthumb"
-                height="128px"
-              />
+          <div v-if="contributor.profile.game.overwatch.arcadeModes.length">
+            <h5 class="mb-2">
+              {{ $t('general.profile.favourite gamemodes') }}
+            </h5>
+            <div class="d-flex flex-row">
+              <div>
+                <b-img
+                  v-for="value in contributor.profile.game.overwatch.arcadeModes"
+                  :key="value.name"
+                  v-b-tooltip.hover
+                  :title="value.name"
+                  :src="value.url"
+                  :alt="value.name"
+                  class="owthumb"
+                  height="128px"
+                />
+              </div>
             </div>
           </div>
-          <h5 class="mt-4 mb-2">
-            {{ $t('general.profile.favourite heroes') }}
-          </h5>
-          <div class="d-flex flex-row">
-            <div>
-              <b-img
-                v-for="value in contributor.profile.game.overwatch.heroes"
-                :key="value.name"
-                v-b-tooltip.hover
-                :title="value.name"
-                :src="value.url"
-                :alt="value.name"
-                class="owthumb"
-                height="128px"
-              />
+          <div>
+            <h5 v-if="contributor.profile.game.overwatch.heroes.length" class="mt-4 mb-2">
+              {{ $t('general.profile.favourite heroes') }}
+            </h5>
+            <div class="d-flex flex-row">
+              <div>
+                <b-img
+                  v-for="value in contributor.profile.game.overwatch.heroes"
+                  :key="value.name"
+                  v-b-tooltip.hover
+                  :title="value.name"
+                  :src="value.url"
+                  :alt="value.name"
+                  class="owthumb"
+                  height="128px"
+                />
+              </div>
             </div>
           </div>
-          <h5 class="mt-4 mb-2">
-            {{ $t('general.profile.favourite maps') }}
-          </h5>
-          <div class="d-flex flex-row">
-            <div>
-              <b-img
-                v-for="value in contributor.profile.game.overwatch.maps"
-                :key="value.name"
-                v-b-tooltip.hover
-                :title="value.name"
-                :src="value.url"
-                :alt="value.name"
-                class="owthumb"
-                height="128px"
-              />
+          <div>
+            <h5 v-if="contributor.profile.game.overwatch.maps.length" class="mt-4 mb-2">
+              {{ $t('general.profile.favourite maps') }}
+            </h5>
+            <div class="d-flex flex-row">
+              <div>
+                <b-img
+                  v-for="value in contributor.profile.game.overwatch.maps"
+                  :key="value.name"
+                  v-b-tooltip.hover
+                  :title="value.name"
+                  :src="value.url"
+                  :alt="value.name"
+                  class="owthumb"
+                  height="128px"
+                />
+              </div>
             </div>
           </div>
         </b-card>
@@ -298,11 +306,11 @@ export default {
           personal: {
             country: {
               code: null
-            }
+            },
+            text: null
           },
           game: {
             overwatch: {
-              arcadeModes: []
             }
           },
           social: {
@@ -333,7 +341,7 @@ export default {
       // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
       this.contributor = Object.assign(this.contributor, contributor)
-      this.data.contributeTable = this.calculateContributeTable(response.data.data.stats.contributionDays)
+      this.data.contributeTable = this.calculateContributeTable(response.data.data.stats?.contributionDays ?? [])
     })
   },
   methods: {

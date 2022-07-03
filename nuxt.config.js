@@ -13,7 +13,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/style'],
+  css: ['~/assets/style', '@fortawesome/fontawesome-svg-core/styles.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -54,7 +54,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faQuestionCircle', 'faKey', 'faSignInAlt', 'faPlusCircle'],
+      solid: ['faCircleQuestion', 'faKey', 'faSignInAlt', 'faPlusCircle'],
       regular: [],
       light: [],
       duotone: [],
@@ -63,7 +63,7 @@ export default {
   },
 
   axios: {
-    baseURL: process.env.API_HOST || 'https://localhost:5001'
+    baseURL: process.env.API_HOST || 'https://localhost:7125'
   },
 
   publicRuntimeConfig: {

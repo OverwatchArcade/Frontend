@@ -99,7 +99,7 @@
       </div>
     </div>
     <div class="d-grid gap-2">
-      <button class="btn btn-warning btn-block" @click="submitDaily()">
+      <button id="submitbutton" class="btn btn-warning btn-block" @click="submitDaily()">
         Submit
       </button>
     </div>
@@ -293,6 +293,7 @@ export default {
         })
     },
     async submitDaily () {
+      document.getElementById('submitbutton').disabled = true
       const $toasted = this.$toasted
       this.$axios.setToken(this.$auth.strategy.token.get(), 'Bearer')
       await this.$axios
@@ -303,6 +304,7 @@ export default {
           this.$router.push({ path: '/overwatch' })
         })
         .catch(function (e) {
+          document.getElementById('submitbutton').disabled = false
           if (e.response.status === 409) {
             $toasted.error('Daily has already been submitted').goAway(5000)
           } else {
