@@ -2141,10 +2141,10 @@
     "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
     camelcase "^5.0.0"
 
-"@vue/compiler-sfc@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.0.tgz#1c203e85290688e10ed3e70b151b9a2f8acab9c1"
-  integrity sha512-hPOI15RsXO1G8aK6FNF93ld9C/D4e/uAJBE59K8NnL8giuKqeVksvamgu4jKhCJ9f9bbUpj5BuSV3sufIx2hmw==
+"@vue/compiler-sfc@2.7.3":
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.3.tgz#6179ed9787e10c270563e0c1b440955bf9dd8342"
+  integrity sha512-/9SO6KeR1ljo+j4Tdkl9zsFG2yY4NQ9p3GKdPVCU99bmkNkTW8g9Tq8SMEvhOfo+RhBC0PdDAOmibl+N37f5YA==
   dependencies:
     "@babel/parser" "^7.18.4"
     postcss "^8.4.14"
@@ -11002,12 +11002,12 @@ vue-toasted@^1.1.28:
   resolved "https://registry.yarnpkg.com/vue-toasted/-/vue-toasted-1.1.28.tgz#dbabb83acc89f7a9e8765815e491d79f0dc65c26"
   integrity sha512-UUzr5LX51UbbiROSGZ49GOgSzFxaMHK6L00JV8fir/CYNJCpIIvNZ5YmS4Qc8Y2+Z/4VVYRpeQL2UO0G800Raw==
 
-vue@^2.6.12:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.0.tgz#9542552e0460563feff11727949f8964e2501bed"
-  integrity sha512-su25f1hocH+QNkVEqk+Oj7B+mkDIWU70l0YY7nYSJFEs3Z64njXxo65RUXnWH46ooEhKmEWyLdW6HcYn8coNrg==
+vue@^2.6.12, vue@^2.7.3:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.3.tgz#33015b7df481a515d625a2ea20fe01d981085cb7"
+  integrity sha512-7MTirXG7LYJi3r2jeYy7EiXIhEE85uP3kBwSxqwDsvIfy/l7+qR4U6ajw8ji1KoP+wYYg7ZY28TBTf3P3Fa4Nw==
   dependencies:
-    "@vue/compiler-sfc" "2.7.0"
+    "@vue/compiler-sfc" "2.7.3"
     csstype "^3.1.0"
 
 vuex@^3.6.2:
