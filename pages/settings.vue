@@ -198,7 +198,7 @@ export default {
       uploadedAvatar: null,
       settings: {
         personal: {
-          about: '',
+          text: '',
           country: ''
         },
         social: {
