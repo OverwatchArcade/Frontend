@@ -216,19 +216,19 @@
         </b-card>
 
         <b-card
-          v-if="Object.values(contributor.profile.game.overwatch).some(v => v)"
+          v-if="hasAnyOverwatchProfileSettings()"
           header-html="<h4>Overwatch</h4>"
           header-tag="header"
           class="mt-3"
         >
-          <div v-if="contributor.profile.game.overwatch.arcadeModes.length">
+          <div v-if="contributor.profile.overwatch.arcadeModes.length">
             <h5 class="mb-2">
               {{ $t('general.profile.favourite gamemodes') }}
             </h5>
             <div class="d-flex flex-row">
               <div>
                 <b-img
-                  v-for="value in contributor.profile.game.overwatch.arcadeModes"
+                  v-for="value in contributor.profile.overwatch.arcadeModes"
                   :key="value.name"
                   v-b-tooltip.hover
                   :title="value.name"
@@ -241,13 +241,13 @@
             </div>
           </div>
           <div>
-            <h5 v-if="contributor.profile.game.overwatch.heroes.length" class="mt-4 mb-2">
+            <h5 v-if="contributor.profile.overwatch.heroes.length" class="mt-4 mb-2">
               {{ $t('general.profile.favourite heroes') }}
             </h5>
             <div class="d-flex flex-row">
               <div>
                 <b-img
-                  v-for="value in contributor.profile.game.overwatch.heroes"
+                  v-for="value in contributor.profile.overwatch.heroes"
                   :key="value.name"
                   v-b-tooltip.hover
                   :title="value.name"
@@ -260,13 +260,13 @@
             </div>
           </div>
           <div>
-            <h5 v-if="contributor.profile.game.overwatch.maps.length" class="mt-4 mb-2">
+            <h5 v-if="contributor.profile.overwatch.maps.length" class="mt-4 mb-2">
               {{ $t('general.profile.favourite maps') }}
             </h5>
             <div class="d-flex flex-row">
               <div>
                 <b-img
-                  v-for="value in contributor.profile.game.overwatch.maps"
+                  v-for="value in contributor.profile.overwatch.maps"
                   :key="value.name"
                   v-b-tooltip.hover
                   :title="value.name"
@@ -309,9 +309,10 @@ export default {
             },
             text: null
           },
-          game: {
-            overwatch: {
-            }
+          overwatch: {
+            arcadeModes: {},
+            heroes: {},
+            maps: {}
           },
           social: {
             steam: null,
@@ -340,7 +341,7 @@ export default {
     this.$axios.get('/api/v1/contributor/' + username).then((response) => {
       // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
-      this.contributor = Object.assign(this.contributor, contributor)
+      this.contributor = { ...this.contributor, ...contributor }
       this.data.contributeTable = this.calculateContributeTable(response.data.data.stats?.contributionDays ?? [])
     })
   },
@@ -367,20 +368,18 @@ export default {
 
       return dates
     },
+    hasAnyOverwatchProfileSettings () {
+      const hasArcadeModes = this.contributor.profile?.overwatch?.arcadeModes.length
+      const hasHeroes = this.contributor.profile?.overwatch?.heroes.length
+      const hasMaps = this.contributor.profile?.overwatch?.maps.length
+
+      return hasArcadeModes || hasHeroes || hasMaps
+    },
     formatDate (val) {
       if (val == null) {
         return '-'
       }
       return format(val + ' UTC')
-    },
-    checkProperties (obj) {
-      let result = false
-      for (const key in obj) {
-        if (obj[key] !== null || obj[key] !== '') {
-          result = true
-        }
-      }
-      return result
     }
   }
 }

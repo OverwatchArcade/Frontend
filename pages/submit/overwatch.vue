@@ -122,7 +122,6 @@ export default {
         arcademodes: []
       },
       submit: {
-        Game: 0,
         TileModes: [
           {
             arcadeModeId: 0,
