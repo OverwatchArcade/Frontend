@@ -216,7 +216,7 @@
         </b-card>
 
         <b-card
-          v-if="Object.values(contributor.profile.overwatch).some(v => v)"
+          v-if="hasAnyOverwatchProfileSettings()"
           header-html="<h4>Overwatch</h4>"
           header-tag="header"
           class="mt-3"
@@ -310,6 +310,9 @@ export default {
             text: null
           },
           overwatch: {
+            arcadeModes: {},
+            heroes: {},
+            maps: {}
           },
           social: {
             steam: null,
@@ -338,7 +341,7 @@ export default {
     this.$axios.get('/api/v1/contributor/' + username).then((response) => {
       // eslint-disable-next-line no-return-assign, no-sequences
       const contributor = Object.entries(response.data.data).reduce((a, [k, v]) => (v ? (a[k] = v, a) : a), {})
-      this.contributor = Object.assign(this.contributor, contributor)
+      this.contributor = { ...this.contributor, ...contributor }
       this.data.contributeTable = this.calculateContributeTable(response.data.data.stats?.contributionDays ?? [])
     })
   },
@@ -365,20 +368,18 @@ export default {
 
       return dates
     },
+    hasAnyOverwatchProfileSettings () {
+      const hasArcadeModes = this.contributor.profile?.overwatch?.arcadeModes.length
+      const hasHeroes = this.contributor.profile?.overwatch?.heroes.length
+      const hasMaps = this.contributor.profile?.overwatch?.maps.length
+
+      return hasArcadeModes || hasHeroes || hasMaps
+    },
     formatDate (val) {
       if (val == null) {
         return '-'
       }
       return format(val + ' UTC')
-    },
-    checkProperties (obj) {
-      let result = false
-      for (const key in obj) {
-        if (obj[key] !== null || obj[key] !== '') {
-          result = true
-        }
-      }
-      return result
     }
   }
 }

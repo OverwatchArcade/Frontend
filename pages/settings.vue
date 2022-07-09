@@ -236,7 +236,7 @@ export default {
         .get('/api/v1/contributor/' + this.$auth.user.username)
         .then((response) => {
           if (response.data.data.profile) {
-            this.settings = Object.assign(this.settings, response.data.data.profile)
+            this.settings = { ...this.settings, ...response.data.data.profile }
           }
         })
         .catch(function (e) {
