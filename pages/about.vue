@@ -20,7 +20,7 @@
     </p>
     <p>
       At last but probably the most important,
-      <a target="_blank" href="https://twitter.com/KVKH93">KVKH</a> for starting
+      <nuxt-link to="/contributor/KVKH">KVKH</nuxt-link> for starting
       this idea on Twitter and thanks to all the
       <a href="/contributors" class="">contributors</a> for making this all
       possible.
