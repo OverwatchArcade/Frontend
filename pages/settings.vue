@@ -129,7 +129,7 @@
               <label>Arcade modes</label>
               <div>
                 <multiselect
-                  v-model="settings.game.overwatch.arcadeModes"
+                  v-model="settings.overwatch.arcadeModes"
                   :options="overwatch.arcadeModes"
                   :searchable="true"
                   :close-on-select="false"
@@ -144,7 +144,7 @@
               <label>Heroes</label>
               <div>
                 <multiselect
-                  v-model="settings.game.overwatch.heroes"
+                  v-model="settings.overwatch.heroes"
                   :options="overwatch.heroes"
                   :searchable="true"
                   :close-on-select="false"
@@ -159,7 +159,7 @@
               <label>Maps</label>
               <div>
                 <multiselect
-                  v-model="settings.game.overwatch.maps"
+                  v-model="settings.overwatch.maps"
                   :options="overwatch.maps"
                   :searchable="true"
                   :close-on-select="false"
@@ -198,7 +198,7 @@ export default {
       uploadedAvatar: null,
       settings: {
         personal: {
-          about: '',
+          text: '',
           country: ''
         },
         social: {
@@ -207,12 +207,10 @@ export default {
           steam: '',
           battlenet: ''
         },
-        game: {
-          overwatch: {
-            maps: [],
-            arcadeModes: [],
-            heroes: []
-          }
+        overwatch: {
+          maps: [],
+          arcadeModes: [],
+          heroes: []
         }
       },
       countries: [],
@@ -238,7 +236,7 @@ export default {
         .get('/api/v1/contributor/' + this.$auth.user.username)
         .then((response) => {
           if (response.data.data.profile) {
-            this.settings = response.data.data.profile
+            this.settings = { ...this.settings, ...response.data.data.profile }
           }
         })
         .catch(function (e) {
