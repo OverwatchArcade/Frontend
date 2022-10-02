@@ -262,7 +262,6 @@ export default {
           this.$auth.fetchUser()
         })
         .catch((error) => {
-          console.log(error.response)
           const messages = error.response.data.errorMessages
           messages.forEach((e) => {
             this.$toasted.error(e).goAway(2500)
