@@ -1,42 +1,35 @@
 <template>
-  <div>
-    <div class="row">
-      <div class="col-auto">
-        <h1>{{ $t('general.menu.contributors') }}</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div
-        v-for="contributor in contributors"
-        :key="contributor.username"
-        class="col-sm-6 col-lg-3 mb-4"
-      >
-        <contributortile :contributor="contributor" />
-      </div>
+  <div v-if="pending">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <Simple />
+      <Simple />
+      <Simple />
+      <Simple />
+      <Simple />
+      <Simple />
     </div>
   </div>
+  <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+    <NuxtLink
+      v-for="contributor in contributors.data"
+      :key="contributor.username"
+      :to="'/contributor/' + contributor.username"
+    >
+      <Contributorcard :contributor="contributor" />
+    </NuxtLink>
+  </div>
 </template>
-
 <script>
+import Contributorcard from "~~/components/contributorcard.vue";
 export default {
-  name: 'Contributors',
-  data () {
-    return {
-      contributors: [{}, {}, {}]
-    }
-  },
-  mounted () {
-    this.getContributors()
-  },
-  methods: {
-    getContributors () {
-      return this.$axios.get('/api/v1/contributor').then((response) => {
-        this.contributors = response.data.data
-      })
-    }
-  }
-}
+  name: "ContributorsPage",
+  components: { Contributorcard },
+};
 </script>
-<style scoped>
-.card {height: 100%;}
-</style>
+
+<script setup>
+import Simple from "../components/skeletons/simple.vue";
+const { pending, data: contributors } = useLazyAsyncData("contributors", () =>
+  $fetch("https://api.overwatcharcade.today/api/v1/contributor")
+);
+</script>
