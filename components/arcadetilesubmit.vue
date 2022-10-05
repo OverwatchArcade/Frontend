@@ -8,13 +8,13 @@
       {{ gamemode.label ? gamemode.label : 'No Label' }}
     </span>
     <img class="card-img-top" :src="gamemode.image">
-    <div class="card-body">
-      <h5 class="text-players">
-        {{ $t('overwatch.players.' + gamemode.players ) }}
-      </h5>
+    <div class="card-body text-center">
       <h4 class="text-gamemode">
         {{ $t('overwatch.arcademodes.' + gamemode.name.replace(/'/g,'')) }}
       </h4>
+      <h5 class="text-players">
+        {{ $t('overwatch.players.' + gamemode.players ) }}
+      </h5>
     </div>
   </div>
   <div v-else class="card">
@@ -73,9 +73,9 @@ export default {
   methods: {
     getRibbonColor (label) {
       switch (label) {
-        case 'Daily':
+        case 'Changes Daily':
           return '-secondary'
-        case 'Weekly':
+        case 'Changes Weekly':
           return ''
         default:
           return '-no-label'

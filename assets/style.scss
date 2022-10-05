@@ -1,29 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body,
 html {
   color: #fff;
   background: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   cursor: url(/overwatch.cur), auto;
 }
 
 @font-face {
-  font-family: 'overwatch';
-  src: url('~assets/fonts/overwatch.woff') format('woff');
+  font-family: "overwatch";
+  src: url("~assets/fonts/overwatch.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'overwatch-italic';
-  src: url('~assets/fonts/overwatch-italic.woff') format('woff');
+  font-family: "overwatch-italic";
+  src: url("~assets/fonts/overwatch-italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'overwatch-serif';
-  src: url('~assets/fonts/overwatch-serif.woff') format('woff');
+  font-family: "overwatch-serif";
+  src: url("~assets/fonts/overwatch-serif.woff") format("woff");
 }
 
 html {
   background-color: rgb(32, 32, 32);
-  background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0,0,0,.650)), url('~assets/pattern.png') repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("~assets/pattern.png") repeat;
 }
 
 a {
@@ -38,11 +41,13 @@ h3 {
 
 h4,
 h5 {
-  font-family: overwatch-italic;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .text-players {
-  color: #1c75bc;
+  color: #1cbc51;
 }
 
 .text-gamemode {
@@ -54,49 +59,34 @@ h5 {
 }
 
 .owthumb {
-  border:1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-ribbon {
   position: absolute;
-  left: -0.8vw;
-  top: 0.5vw;
   display: inline-block;
   color: #ffffff;
   font-weight: 700;
-  background: #17b113;
+  background: #f89e1b;
   text-transform: uppercase;
   font-size: 8pt;
-  padding: 0.49vw 0.62vw 0.29vw;
+  padding: 5px 15px;
   border-radius: 0;
 }
 
-.card-ribbon::after {
-  content: '';
-  bottom: -0.8vw;
-  position: absolute;
-  display: block;
-  border-style: solid;
-  border-color: #0c590a transparent transparent transparent;
-  left: 0;
-  width: 0;
-  border-width: 0.8vw 0 0 0.8vw;
-}
-
 .card-ribbon.-secondary {
-  background: #f89e1b;
-}
-
-.card-ribbon.-secondary::after {
-  border-color: #7c4f0e transparent transparent transparent;
+  background: #17b113;
 }
 
 .card-ribbon.-no-label {
   background: #1d1d1d;
 }
 
-.card-ribbon.-no-label::after {
-  border-color: #0e0e0e transparent transparent transparent;
+.icon-flipped {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
 }
 
 ul.owarcade-menu li {
@@ -119,12 +109,7 @@ ul.owarcade-menu {
 .card {
   color: #222222;
   background-color: #ffffff;
-  //height: 100%;
-}
-
-.card:hover {
-  //background-color: #ebebeb;
-  //transition: all 250ms;
+  border: none;
 }
 
 #socials {
@@ -162,11 +147,11 @@ span.flag.small-flag {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
 }
 
 .card-header > h4 {
-  margin-top:4px;
+  margin-top: 4px;
 }
 
 .contributiontable {
@@ -184,7 +169,6 @@ span.flag.small-flag {
   }
 }
 
-
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 768px) {
   .largeTile .card .card-img-top {
@@ -195,14 +179,8 @@ span.flag.small-flag {
   }
 
   .card-ribbon {
-    left: -10px;
-    top: 20px;
     font-size: 12px;
-    padding: 2.59vw 4.92vw 2.49vw;
-  }
-
-  .card-ribbon::after {
-    display: none;
+    padding: 2vw 8vw;
   }
 
   .card {
@@ -217,17 +195,12 @@ span.flag.small-flag {
   .card .card-img-top {
     height: 250px;
   }
-
-  .card-ribbon::after {
-    bottom: -25px;
-    border-width: 25px 0 0 25px;
-  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .largeTile .card .card-img-top {
-    height: 400px;
+    height: 300px;
   }
   .card .card-img-top {
     height: 200px;
@@ -237,7 +210,7 @@ span.flag.small-flag {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .largeTile .card .card-img-top {
-    height: 400px;
+    height: 300px;
   }
   .card .card-img-top {
     height: 200px;
@@ -247,15 +220,15 @@ span.flag.small-flag {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .card .card-img-top {
-    height: 150px;
+    height: 140px;
   }
 
   .largeTile {
-    height: 100%;
+    height: inherit;
   }
 
-  .largeTile .card .card-img-top {
-    height: 428px;
+  .largeTile > .card-img-top {
+    height: 300px;
   }
 
   h1 {
@@ -268,5 +241,10 @@ span.flag.small-flag {
 
   h3 {
     font-size: 26pt;
+  }
+
+  h4,
+  h5 {
+    font-size: 14pt;
   }
 }
