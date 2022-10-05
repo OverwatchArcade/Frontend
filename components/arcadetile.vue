@@ -6,7 +6,7 @@
       :class="getRibbonColor(gamemode.label)"
     >
       <font-awesome-icon
-        style="font-size:14px"
+        style="height:14px"
         :icon="['fas', 'clock-rotate-left']"
         class="icon-flipped"
       />
