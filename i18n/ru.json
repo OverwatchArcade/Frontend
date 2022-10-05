@@ -130,7 +130,10 @@
       "Lunar Brawls": "Гроза",
       "Malevento Deathmatch": "Потасовки Лунного Нового года",
       "Malevento TDM": "Схватка в Малевенто",
-      "Unknown Arcade": "Неизвестный режим"
+      "Unknown Arcade": "Неизвестный режим",
+      "Push Maps": "Push Maps",
+      "Circuit Royal": "Circuit Royal",
+      "Midtown": "Midtown"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "Отважные охотницы объединяются против одного йети. Но берегитесь! Если он съест 4 куска мяса, охотниц спасет только чудо.",
