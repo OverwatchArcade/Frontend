@@ -19,7 +19,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.25.5",
-    "discord-oauth2": "^2.7.0",
+    "discord-oauth2": "^2.10.1",
     "nanoid": "^3.1.23",
     "nuxt": "^2.15.5",
     "nuxt-i18n": "^6.27.0",
