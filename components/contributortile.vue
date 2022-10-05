@@ -20,7 +20,7 @@
           path: '/contributor/' + contributor.username.replace(/#/, '%23'),
           params: { contributor: contributor.username.replace(/#/, '%23') },
         }"
-        class="float-end btn-sm btn-secondary"
+        class="float-end btn btn-warning"
       >
         {{ $t('general.contributor listing.view profile') }}
       </nuxt-link>
