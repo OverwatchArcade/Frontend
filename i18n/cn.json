@@ -1,38 +1,38 @@
 {
   "general": {
     "menu": {
-      "contributors": "贡献者",
-      "api docs": "API 文档",
-      "about": "关于"
+      "contributors": "contributors",
+      "api docs": "api docs",
+      "about": "about"
     },
     "overwatch": {
-      "warning": "提醒",
-      "not updated yet": "暂未更新",
-      "day ends in": "结束于"
+      "warning": "warning",
+      "not updated yet": "not updated yet",
+      "day ends in": "Day ends in"
     },
     "profile": {
-      "member since": "{0} 前加入",
-      "social": "社交媒体",
-      "personal": "简介",
-      "nationality": "国籍",
-      "about": "关于",
-      "contribution statistics": "贡献统计",
-      "contribution count": "贡献累计",
-      "last contributed": "上次贡献",
-      "favourite day": "最爱玩的日子",
-      "contribution history": "贡献历史",
-      "favourite gamemodes": "最喜欢的模式",
-      "favourite heroes": "最喜欢的英雄",
-      "favourite maps": "最喜欢的地图"
+      "member since": "Member since {0}",
+      "social": "Social",
+      "personal": "Personal",
+      "nationality": "Nationality",
+      "about": "About",
+      "contribution statistics": "Contribution statistics",
+      "contribution count": "Contribution count",
+      "last contributed": "Last contributed",
+      "favourite day": "Favourite day",
+      "contribution history": "Contribution history",
+      "favourite gamemodes": "Favourite gamemodes",
+      "favourite heroes": "Favourite heroes",
+      "favourite maps": "Favourite maps"
     },
     "contributor listing": {
-      "contributor since": "{0} 前开始贡献，累计已有 {1} 次。",
-      "contributor last contributed": "上次贡献于 {0}",
-      "view profile": "查看简介"
+      "contributor since": "Contributor since {0} with currently {1} contributions.",
+      "contributor last contributed": "Last contributed {0}",
+      "view profile": "view profile"
     },
     "footer": {
-      "copyright_site": "本站采用授权许可协议：",
-      "copyright_materials": "游戏内容及资料均是其发行商和授权方的商标和版权。版权所有，保留所有权利。"
+      "copyright_site": "This site is licensed under a",
+      "copyright_materials": "Game content and materials are trademarks and copyrights of their respective publisher and its licensors. all rights reserved"
     }
   },
   "overwatch": {
