@@ -132,6 +132,8 @@
       "Malevento Deathmatch": "Deathmatch w Malevento",
       "Malevento TDM": "Malevento DMD",
       "Open Queue": "Otwarta Rywalizacja",
+      "Junkensteins Revenge: Wrath of the Bride": "Zemsta dr. Złomensteina: Gniew Narzeczonej Złomensteina",
+      "STORY": "FABUŁA",
       "Assault Maps": "Mapy typu Szturm",
       "Payload Maps": "Mapy typu Ładunek",
       "Hybrid Maps": "Mapy hybrydowe",
@@ -231,10 +233,15 @@
       "Retribution. Damaging enemies heals other enemies.": "Odwet. Ranienie wrogów powoduje leczenie pozostałych przeciwników.",
       "Storm Rising. Enemies damage nearby players.": "Czarne Chmury. Wrogowie zadają obrażenia pobliskim graczom.",
       "Defeat the enemy team with no role limits on hero selection.": "Pokonaj drużynę wroga bez ograniczeń ról przy wyborze bohaterów.",
+      "The Bride of Junkenstein has come to Adlersbrunn to avenge her fallen creator. Four heroes must unite to stop her.": "Narzeczona Złomensteina przybyła do Adlersbrunn, by pomścić swego poległego twórcę. Czwórka bohaterów musi ją powstrzymać.",
+      "Enjoy the story without failure\r\nWARNING: Contains jumpscares": "Ciesz się historią bez porażki\nUWAGA: są straszne momenty",
+      "The Bride's minions grow stronger\r\nWARNING: Contains jumpscares": "Sługi Narzeczonej Złomensteina rosną w siłę\nUWAGA: są straszne momenty",
+      "Few will reach the Castle\r\nWARNING: Contains jumpscares": "Niewielu dotrze do zamku\nUWAGA: są straszne momenty",
+      "A Legendary tale\r\nWARNING: Contains jumpscares": "Legendarna opowieść\nUWAGA: są straszne momenty",
       "Push the bot farther than the enemy team does.": "Przepchnij robota dalej niż drużyna przeciwnika.",
       "Battle through the streets of Lúcio's hometown!": "Walcz na ulicach rodzinnego miasta Lúcio!",
       "Drive your enemies back through the shadows of skyscrapers!": "Odeprzyj atak wrogów wśród cieni drapaczy chmur!",
-      "Protect the payload in the stunning playground of the mega-rich!": "Broń ładunku na oszałamiającym placu zabaw mega-bogaczy!"
+      "Protect the payload in the stunning playground of the mega-rich!": "Broń ładunku na oszałamiającym placu zabaw megabogaczy!"
     },
     "players": {
       "5v1": "5 NA 1",
