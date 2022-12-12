@@ -141,11 +141,12 @@
       "Push Maps": "Push Maps",
       "Paraíso": "Paraíso",
       "Midtown": "Midtown",
-      "Circuit Royal": "Circuit Royal"
+      "Circuit Royal": "Circuit Royal",
+      "Shambali Monastery": "Shambali Monastery"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "Defeat the enemy team with every player using heroes that randomly change upon respawn.",
       "Power up and embrace the chaos.": "Power up and embrace the chaos.",
       "Climb to the top of the scoreboard. The deadliest team wins.": "Climb to the top of the scoreboard. The deadliest team wins.",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "A team of four heroes heads to Havana to deal with a new threat.",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "A new Overwatch strike team heads to Havana to capture a critical Talon asset.",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "Head to Paris and battle at the heart of the Omnic Resistance.",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.",
       "Take the fight to the streets of Havana!": "Take the fight to the streets of Havana!",
       "A free-for-all battle against identical heroes!": "A free-for-all battle against identical heroes!",
       "PH Endless Deathmatch description": "PH Endless Deathmatch description",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.",
       "PH Skirmish description": "PH Skirmish description",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "Push the bot farther than the enemy team does.",
       "Battle through the streets of Lúcio's hometown!": "Battle through the streets of Lúcio's hometown!",
       "Drive your enemies back through the shadows of skyscrapers!": "Drive your enemies back through the shadows of skyscrapers!",
-      "Protect the payload in the stunning playground of the mega-rich!": "Protect the payload in the stunning playground of the mega-rich!"
+      "Protect the payload in the stunning playground of the mega-rich!": "Protect the payload in the stunning playground of the mega-rich!",
+      "": ""
     },
     "players": {
       "5v1": "5v1",

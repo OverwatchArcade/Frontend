@@ -141,11 +141,12 @@
       "Push Maps": "プッシュ・マップ",
       "Paraíso": "PARAISO",
       "Midtown": "MIDTOWN",
-      "Circuit Royal": "CIRCUIT ROYAL"
+      "Circuit Royal": "CIRCUIT ROYAL",
+      "Shambali Monastery": "SHAMBALI MONASTERY"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "ハンター集団 VS 1匹のイエティ。イエティがお肉を4個食べたら…狩る側が狩られる側になる！",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "5対5の特殊バトル。全員が雪玉ブラスターを装備したメイを使用。ブラスターは1発しか撃てないが、雪のかたまりから雪玉を補充できる",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "ア“メイ”ジングな5対5の雪合戦。ブラスターは1発しか撃てないが、雪のかたまりから雪玉を補充できる",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "リスポーンごとに<br>ヒーローが<br>ランダムで<br>決定する<br>チーム戦",
       "Power up and embrace the chaos.": "混沌に<br>身を<br>任せよう",
       "Climb to the top of the scoreboard. The deadliest team wins.": "トップを目指せ！チームを勝利へと導こう！",
@@ -189,7 +190,7 @@
       "Null Sector takes no prisoners.": "ヌルセクター軍の<br>強さが<br>さらに<br>増す",
       "Face the overwhelming might of Null Sector.": "ヌルセクター軍は<br>誰にも<br>止められ<br>ない…",
       "If all players prefer Hunter, one will be chosen randomly as the Yeti.": "全プレイヤーが<br>ハンターを<br>希望<br>した<br>場合、<br>ランダムに<br>イエティが<br>選ばれます",
-      "Completing games as hunter will increase your chances to be chosen as the Yeti.": "ハンター<br>として<br>マッチを<br>完了<br>するほど、<br>イエティに<br>選ばれる<br>確率が<br>高くなる",
+      "Completing games as hunter will increase your chances to be chosen as the Yeti.": "ハンター<br>として<br>マッチを<br>完了<br>するほど、<br>イエティに<br>選ばれる<br>確率が<br>高くなります",
       "Rise up the ranks and compete with the best Deathmatch players in the world!": "デスマッチでランクインを目指そう！",
       "Two teams compete to take control of Busan.": "BUSANの制圧を目指すチーム戦",
       "Capture the objectives!": "目標を確保しよう！",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "新たなる<br>脅威に<br>立ち<br>向かう<br>ため、<br>4人の<br>ヒーローが<br>ハバナへ<br>と降り<br>立つ",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "タロンの<br>重要目標を<br>確保<br>すべく、<br>新たな<br>オーバー<br>ウォッチの<br>ストライク・<br>チームが<br>ハバナへ<br>派遣された",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "6人<br>チーム、<br>BUSAN<br>限定。<br>自分の<br>フラッグを<br>守り<br>ながら、<br>敵の<br>フラッグを<br>奪おう",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "倒されたヒーローは凍結し、味方はそれを解凍できる。敵を全員凍結させればラウンドに勝利する。勝利したヒーローはその後のラウンドで使用できなくなる",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "倒されたヒーローは凍結し、味方はそれを解凍できる。敵を全員凍結させればラウンドに勝利する。勝利したヒーローはその後のラウンドでは使用できなくなる\n",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "オムニック・<br>レジスタンス<br>の本拠地、<br>パリで<br>戦いが<br>繰り広げられる",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "固定されたヒーローのリストでプレイするデスマッチ。キルを獲得するたびに次のヒーローに変わる。最初にリスト内の全ヒーローを終えたプレイヤーの勝利",
       "Take the fight to the streets of Havana!": "ハバナを舞台に戦おう！",
       "A free-for-all battle against identical heroes!": "全員同じヒーローで戦うFFAマッチ！",
       "PH Endless Deathmatch description": "PH Endless Deathmatch description",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "フリー・<br>フォー・<br>オールの<br>雪合戦。<br>全員が<br>雪玉<br>ブラスターを<br>装備<br>した<br>メイを<br>使用。<br>ブラスターの<br>弾数は<br>制限<br>されて<br>いるが、<br>雪の<br>かたまり<br>から<br>雪玉を<br>補充<br>できる",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "ア“メイ”ジングなFFA雪合戦。ブラスターは3発しか撃てないが、雪のかたまりから雪玉を補充できる",
       "PH Skirmish description": "PH Skirmish description",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "5人チーム同士のハイスピード・バトル。自分のフラッグを守りながら、敵のフラッグを奪おう",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "ストーム・ライジング。ダメージヒーロー限定で回復が制限される。ダメージを与えることで自身を回復する",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "相手チームよりロボットを遠くに押そう",
       "Battle through the streets of Lúcio's hometown!": "ルシオの故郷で戦おう！",
       "Drive your enemies back through the shadows of skyscrapers!": "超高層ビルの陰を縫い、敵を返り討ちにしよう！",
-      "Protect the payload in the stunning playground of the mega-rich!": "億万長者たちのゴージャスな未来の遊び場で、ペイロードを護衛しよう！"
+      "Protect the payload in the stunning playground of the mega-rich!": "億万長者たちのゴージャスな未来の遊び場で、ペイロードを護衛しよう！",
+      "": ""
     },
     "players": {
       "5v1": "5VS1",

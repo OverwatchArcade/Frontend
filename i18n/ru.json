@@ -141,11 +141,12 @@
       "Push Maps": "Натиск",
       "Paraíso": "Параисо",
       "Midtown": "Мидтаун",
-      "Circuit Royal": "Королевская трасса"
+      "Circuit Royal": "Королевская трасса",
+      "Shambali Monastery": "Монастырь Шамбала"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "Отважные охотницы объединяются против одного йети. Но берегитесь! Если он съест 4 куска мяса, охотниц спасет только чудо.",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "Серия сражений между игроками-Мэй в формате 5х5. Участницы вооружены мощными снежковыми бластерами, которые нужно перезаряжать возле сугробов после каждого выстрела.",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "Наберитесь с-Мэй-лости и поучаствуйте в зимней схватке в формате 5х5! Оружие нужно перезаряжать возле сугробов после каждого выстрела.",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "Одолейте команду противника, каждый раз возрождаясь случайным героем.",
       "Power up and embrace the chaos.": "Вот вам сила — устройте кавардак!",
       "Climb to the top of the scoreboard. The deadliest team wins.": "Поднимитесь на вершину рейтинговой таблицы. Победит самая смертоносная команда.",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "Команда из четырех героев отправляется в Гавану с новым заданием.",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "Новый ударный отряд Overwatch отправляется в Гавану, чтобы захватить важного члена «Когтя».",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "Две команды по шесть игроков соревнуются на поле боя в Пусане. Цель – захватить вражеский флаг и защитить свой.",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "Убитые герои замерзают и могут быть разморожены союзниками. Для победы в раунде заморозьте всех противников. Герои, использованные победившей командой, недоступны в дальнейших раундах.",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "Поверженные герои замерзают и могут быть разморожены союзниками. Для победы в раунде заморозьте всех противников. Герои, использованные победившей командой, недоступны в дальнейших раундах.",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "Отправляйтесь в Париж и вступите в битву, кипящую в самом сердце квартала, где зародилось Сопротивление омников.",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "Серия схваток между героями из списка. При каждом убийстве вы переключаетесь на нового героя. Первый игрок, дошедший до конца списка героев, побеждает.",
       "Take the fight to the streets of Havana!": "Примите бой на улицах Гаваны!",
       "A free-for-all battle against identical heroes!": "Бой между одинаковыми героями, где каждый сам за себя!",
       "PH Endless Deathmatch description": "PH Endless Deathmatch description",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "Победите других игроков-Мэй, вооруженных мощными снежковыми бластерами, которые нужно перезаряжать возле сугробов после каждого выстрела.",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "Наберитесь с-Мэй-лости и поучаствуйте в зимней схватке, где каждый сам за себя! Оружие нужно перезаряжать возле сугробов, а его боезапас – 3 выстрела.",
       "PH Skirmish description": "PH Skirmish description",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "В этом динамичном режиме две команды по пять игроков стараются захватить флаг противника и защитить свой.",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "«Предчувствие бури». Только герои с ролью «Урон». Штраф к исцелению. Наносите урон, чтобы восстанавливать здоровье.",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "Передвиньте робота дальше команды противника.",
       "Battle through the streets of Lúcio's hometown!": "Сражайтесь на улицах родного города Лусио!",
       "Drive your enemies back through the shadows of skyscrapers!": "Отбейте натиск противников в тени небоскребов!",
-      "Protect the payload in the stunning playground of the mega-rich!": "Защищайте груз на зрелищной игровой площадке сливок общества!"
+      "Protect the payload in the stunning playground of the mega-rich!": "Защищайте груз на зрелищной игровой площадке сливок общества!",
+      "": ""
     },
     "players": {
       "5v1": "5х1",

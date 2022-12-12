@@ -38,7 +38,7 @@
   "overwatch": {
     "arcademodes": {
       "Yeti Hunter": "Yetijagd",
-      "Meis Snowball Offensive": "Meis Schneeballschlacht",
+      "Meis Snowball Offensive": "Meis Schneeball<hy>schlacht",
       "Winter Mystery": "Winterüberraschung",
       "Total Mayhem": "Totales Chaos",
       "Team Deathmatch": "Team-Deathmatch",
@@ -141,11 +141,12 @@
       "Push Maps": "Schubkarten",
       "Paraíso": "Paraíso",
       "Midtown": "Midtown",
-      "Circuit Royal": "Circuit Royal"
+      "Circuit Royal": "Circuit Royal",
+      "Shambali Monastery": "Shambali-Kloster"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "Abenteuerlustige Jäger stellen gemeinsam dem Yeti nach. Pass auf: Sobald der Yeti vier Stück Fleisch gefressen hat, solltest du dich besser verstecken!",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "Liefert euch eine Serie von 5v5-Schneeballschlachten. Alle Spieler gehen als Mei mit einer mächtigen Schneeballkanone ins Match. Diese Waffe hat nur einen Schuss, kann aber an Schneehaufen nachgeladen werden.",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "Mach bei einer mei-sterhaften 5v5-Schneeballschlacht mit. Du hast nur einen Schuss, kannst aber bei Schneehaufen weitere Munition holen.",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "Besiege das gegnerische Team. Spieler bekommen nach jeder Wiederbelebung einen zufälligen Helden zugewiesen.",
       "Power up and embrace the chaos.": "Stärke dich und ergib dich dem Chaos.",
       "Climb to the top of the scoreboard. The deadliest team wins.": "Kämpf dich mit deinem Team an die Spitze. Möge das tödlichste Team gewinnen.",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "Ein Team von vier Helden tritt in Havanna einer neuen Bedrohung entgegen.",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "Ein neues Strike Team von Overwatch reist nach Havanna, um ein wichtiges Mitglied von Talon gefangen zu nehmen.",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "Zwei Teams mit jeweils sechs Spielern versuchen, in Busan die Flagge des gegnerischen Teams zu erobern, während sie ihre eigene verteidigen müssen.",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "Eliminierte Helden werden eingefroren und können von Verbündeten wieder aufgetaut werden. Friert alle Gegner ein, um die Runde zu gewinnen. Erfolgreiche Helden sind in späteren Runden nicht auswählbar.",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "Besiegte Helden werden eingefroren und können von Verbündeten wieder aufgetaut werden. Friere alle Gegner ein, um Runden zu gewinnen. Siegreiche Helden werden pro Runde entfernt.",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "Begib dich nach Paris und kämpfe im Zentrum des Omnic-Widerstands.",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "Spiel dich auf einer Deathmatch-Karte durch eine vorgegebene Heldenliste. Mit jedem erzielten Kill wechselst du zum nächsten Helden. Der erste Spieler, der seine Liste durchgespielt hat, gewinnt.",
       "Take the fight to the streets of Havana!": "Kämpfe auf den Straßen von Havanna!",
       "A free-for-all battle against identical heroes!": "Alle gegen alle – und deine Gegner spielen mit dem gleichen Helden wie du!",
       "PH Endless Deathmatch description": "Endloses Deathmatch – Beschreibung",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "Liefert euch eine Serie von Deathmatch-Schneeballschlachten. Alle Spieler gehen als Mei mit einer mächtigen Schneeballkanone ins Match. Diese Waffe hat begrenzte Munition, kann aber an Schneehaufen nachgeladen werden.",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "Mach bei einer mei-sterhaften Deathmatch-Schneeballschlacht mit. Du hast nur drei Schüsse, kannst aber bei Schneehaufen weitere Munition holen.",
       "PH Skirmish description": "Übungsgefecht – Beschreibung",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "Zwei Teams mit jeweils fünf Spielern versuchen, in einem hektischen Gefecht die Flagge des gegnerischen Teams zu erobern, während sie ihre eigene verteidigen müssen.",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "Sturmzeichen. Nur Schadenshelden. Heilung verringert. Verursachter Schaden heilt.",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "Bringe den Bot weiter als das gegnerische Team.",
       "Battle through the streets of Lúcio's hometown!": "Kämpfe dich durch die Straßen von Lúcios Heimatstadt!",
       "Drive your enemies back through the shadows of skyscrapers!": "Dränge deine Gegner im Schatten der Wolkenkratzer zurück!",
-      "Protect the payload in the stunning playground of the mega-rich!": "Beschütze die Fracht auf diesem atemberaubenden Spielplatz der Superreichen!"
+      "Protect the payload in the stunning playground of the mega-rich!": "Beschütze die Fracht auf diesem atemberaubenden Spielplatz der Superreichen!",
+      "": ""
     },
     "players": {
       "5v1": "5v1",

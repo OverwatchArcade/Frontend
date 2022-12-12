@@ -141,11 +141,12 @@
       "Push Maps": "Mapy typu Przepychanka",
       "Paraíso": "Paraíso",
       "Midtown": "Dzielnica Midtown",
-      "Circuit Royal": "Circuit royal"
+      "Circuit Royal": "Circuit royal",
+      "Shambali Monastery": "Klasztor Szambala"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "Żądni przygód łowcy współpracują przeciwko samotnemu Yeti. Uważajcie, bo kiedy zje 4 sztuki mięsa, to wy zostaniecie jego zwierzyną.",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "Stań do walki w serii pojedynków 5 na 5 jako Mei wyposażona w potężny Miotacz Śnieżek. Jest to jednostrzałowa broń, lecz można ją przeładowywać przy zaspach śniegu.",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "Weź udział w niesa-Mei-witej walce 5 na 5 na śnieżki. Masz tylko jeden strzał, ale możesz przeładować broń na śnieżnych stosach.",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "Pokonaj drużynę wroga. Każdy gracz dysponuje bohaterami, którzy zmieniają się losowo podczas odradzania się.",
       "Power up and embrace the chaos.": "Pełne wzmocnienie, pełen chaos.",
       "Climb to the top of the scoreboard. The deadliest team wins.": "Wywalczcie miejsce na szczycie tabeli wyników. Wygrywa najbardziej zabójcza drużyna.",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "Wyrusz wraz z czteroosobowym zespołem na Hawanę, żeby zająć się nowym zagrożeniem.",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "Nowa grupa szturmowa Overwatch wyrusza na Hawanę, aby pojmać ważnego członka Szponu.",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "Dwie sześcioosobowe drużyny walczą na mapie Pusan o zdobycie flagi przeciwników, jednocześnie broniąc własnej.",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "Zlikwidowani wrogowie zostają zamrożeni i mogą ich rozmrozić sojusznicy. Zamroź wszystkich wrogów, aby wygrać rundę. Zwycięscy bohaterowie są niedostępni w późniejszych rundach.",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "Pokonani wrogowie zostają zamrożeni i mogą ich rozmrozić sojusznicy. Zamroź wszystkich wrogów, aby wygrać rundę. Zwycięscy bohaterowie są niedostępni w kolejnej rundzie.",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "Udaj się do Paryża i stocz walkę w centrum buntu omników.",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "Graj kolejnymi bohaterami z listy w trybie Deathmatch. Po każdej zaliczonej likwidacji przełączasz się na kolejną postać. Wygrywa pierwszy gracz, który wcieli się we wszystkie postacie z listy.",
       "Take the fight to the streets of Havana!": "Walcz na ulicach Hawany!",
       "A free-for-all battle against identical heroes!": "Bitwa każdy na każdego z identycznymi bohaterami!",
       "PH Endless Deathmatch description": "PH Endless Deathmatch description",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "Stań do walki w grze każdy na każdego jako Mei wyposażona w potężny Śnieżkowy Blaster. Broń posiada ograniczoną amuniację, lecz można ją przeładowywać przy górkach śniegu.",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "Weź udział w niesa-Mei-witej walce na śnieżki. Masz tylko 3 strzały, ale możesz przeładować broń na śnieżnych stosach.",
       "PH Skirmish description": "PH Skirmish description",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "Dwie pięcioosobowe drużyny walczą w szybkiej grze o zdobycie flagi przeciwników, jednocześnie broniąc własnej.",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "Czarne Chmury. Tylko bohaterowie natarcia. Leczenie jest ograniczone. Leczysz się, zadając obrażenia.",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "Przepchnij robota dalej niż drużyna przeciwnika.",
       "Battle through the streets of Lúcio's hometown!": "Walcz na ulicach rodzinnego miasta Lúcio!",
       "Drive your enemies back through the shadows of skyscrapers!": "Odeprzyj atak wrogów wśród cieni drapaczy chmur!",
-      "Protect the payload in the stunning playground of the mega-rich!": "Broń ładunku na oszałamiającym placu zabaw megabogaczy!"
+      "Protect the payload in the stunning playground of the mega-rich!": "Broń ładunku na oszałamiającym placu zabaw megabogaczy!",
+      "": ""
     },
     "players": {
       "5v1": "5 NA 1",

@@ -141,11 +141,12 @@
       "Push Maps": "推進類型地圖",
       "Paraíso": "帕拉伊索",
       "Midtown": "中城區",
-      "Circuit Royal": "皇家賽道"
+      "Circuit Royal": "皇家賽道",
+      "Shambali Monastery": "香巴里僧院"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "幾位大膽的獵人團結合作對抗孤獨的雪怪。小心，如果雪怪吃到4塊肉，你們就得趕緊逃命！",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "來進行一系列的5對5決鬥！玩家只能使用小美，手上的武器是雪球槍。雖然子彈只有一發，不過你可以在雪堆進行裝填。",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "進行一場超炫的5對5雪球戰。你的子彈只有一發，不過你可以在雪堆進行裝填。",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "每一名玩家都會在重生時隨機更換英雄，努力擊敗敵方隊伍吧。",
       "Power up and embrace the chaos.": "充分暢快，大肆破壞。",
       "Climb to the top of the scoreboard. The deadliest team wins.": "在排行榜一路晉升，只有又強又猛又殺的那方能成為贏家。",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "四名英雄一同前往哈瓦那解決新的危機。",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "一支捍衛者特遣隊前往哈瓦那，追捕利爪組織高層成員。",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "兩支六人隊伍在釜山展開競賽，必須一面保護己方的旗幟，一面奪取對方的旗幟。",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "遭到擊殺的英雄會陷入凍結狀態，不過隊友可以幫忙解凍，讓敵方隊伍全員凍結即可獲勝，打贏的英雄無法在之後的回合使用。",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "被擊敗的英雄會陷入凍結狀態，不過隊友可以幫忙解凍，讓敵方隊伍全員凍結即可獲勝。每回合會移除勝利的英雄。",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "前往巴黎，在智械權益維護運動風行的城市戰鬥。",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "在死鬥對戰中玩遍一組英雄清單吧！每擊殺一次敵人，你就會換成清單中的下一個英雄。最先玩完整個英雄清單的玩家即可獲勝。",
       "Take the fight to the streets of Havana!": "在哈瓦那街頭激烈戰鬥！",
       "A free-for-all battle against identical heroes!": "用完全相同的英雄進行死鬥！",
       "PH Endless Deathmatch description": "無盡死鬥說明",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "進行一場死鬥。玩家只能使用小美，手上的武器是雪球槍。雖然子彈只有幾發，不過你可以在雪堆進行裝填。",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "進行一場超炫的雪球大混戰。你的子彈只有3發，不過你可以在雪堆進行裝填。",
       "PH Skirmish description": "衝突戰說明",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "兩支五人隊伍展開快節奏的競賽，必須一面保護己方的旗幟，一面奪取對方的旗幟。",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "失控倒數。只能使用攻擊型英雄。治療效果降低，造成傷害可恢復生命值。",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "使機器人的推進距離比敵隊更遠。",
       "Battle through the streets of Lúcio's hometown!": "在路西歐家鄉的街道戰鬥！",
       "Drive your enemies back through the shadows of skyscrapers!": "在摩天高樓的影子底下擊退敵人！",
-      "Protect the payload in the stunning playground of the mega-rich!": "在超級富豪的驚人遊樂場中保護好護送目標！"
+      "Protect the payload in the stunning playground of the mega-rich!": "在超級富豪的驚人遊樂場中保護好護送目標！",
+      "": ""
     },
     "players": {
       "5v1": "5v1",

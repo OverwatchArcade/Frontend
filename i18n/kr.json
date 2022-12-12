@@ -141,11 +141,12 @@
       "Push Maps": "밀기 전장",
       "Paraíso": "파라이수",
       "Midtown": "미드타운",
-      "Circuit Royal": "서킷 로얄"
+      "Circuit Royal": "서킷 로얄",
+      "Shambali Monastery": "샴발리 수도원"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "모험심 넘치는 사냥꾼들이 힘을 모아 예티 한 마리를 잡으려 합니다. 조심하세요! 예티가 고기를 4개 먹으면 도망쳐야 합니다!",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "여러 번에 걸쳐 진행되는 5대5 전투를 즐기세요. 모든 플레이어는 강력한 눈뭉치 발사기로 무장한 메이를 플레이하게 됩니다. 이 무기는 단 한 발만 쏠 수 있지만, 눈더미에서 재장전할 수 있습니다.",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "5대5 눈싸움에 참가하세요. 단 한 발만 쏠 수 있지만, 눈더미에서 재장전할 수 있습니다.",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "적 팀을 쓰러뜨리십시오. 모든 플레이어는 부활할 때마다 무작위로 영웅이 바뀝니다.",
       "Power up and embrace the chaos.": "강화된 상태로 혼란을 만끽하십시오.",
       "Climb to the top of the scoreboard. The deadliest team wins.": "점수판의 정상을 노리십시오. 가장 노련한 팀이 승리합니다.",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "4명의 영웅으로 구성된 팀이 새로운 위협을 제거하기 위해 하바나로 떠납니다.",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "오버워치의 새로운 타격팀이 하바나로 향해 탈론의 주요 간부를 체포하려 합니다.",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "6명의 플레이어들로 구성된 두 팀이 부산에서 자신들의 깃발을 지키면서 적 팀의 깃발을 쟁취하기 위해 격돌합니다.",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "쓰러진 영웅은 얼어붙지만 아군이 해동할 수 있습니다. 모든 적이 얼어붙으면 라운드에서 승리합니다. 라운드에서 승리한 영웅들은 이후 라운드에서 제외됩니다.",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "쓰러진 영웅은 얼어붙지만 아군이 해동할 수 있습니다. 모든 적이 얼어붙으면 라운드에서 승리합니다. 라운드에서 승리한 영웅들은 이후 라운드에서 제외됩니다.",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "옴닉 저항 운동의 심장부인 파리에서 격돌하십시오.",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "데스매치 환경에서 목록에 있는 영웅들을 차례로 플레이하세요. 적을 처치할 때마다 목록의 다음 영웅으로 교체되며 가장 먼저 목록 하단 끝까지 도달한 플레이어가 승리합니다.",
       "Take the fight to the streets of Havana!": "하바나의 거리에서 전투를 벌입니다!",
       "A free-for-all battle against identical heroes!": "똑같은 영웅들과 개별 전투를 펼칩니다!",
       "PH Endless Deathmatch description": "PH Endless Deathmatch description",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "개별 전투로 눈싸움을 즐기세요. 모든 플레이어는 강력한 눈뭉치 발사기로 무장한 메이를 플레이하게 됩니다. 이 무기는 일반적인 재장전이 제한되어 눈더미에서 재장전할 수 있습니다.",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "개별 전투 눈싸움에 참가하세요. 세 발만 쏠 수 있지만, 눈더미에서 재장전할 수 있습니다.",
       "PH Skirmish description": "PH Skirmish description",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "5명의 플레이어들로 구성된 두 팀이 더욱 속도감 있는 경기에서 자신들의 깃발을 지키면서 적 팀의 깃발을 쟁취하기 위해 격돌합니다.",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "폭풍의 서막. 공격 영웅만 선택 가능합니다. 치유량이 감소합니다. 피해를 주면 생명력을 회복합니다.",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "적 팀보다 로봇을 더 멀리 미십시오!",
       "Battle through the streets of Lúcio's hometown!": "루시우의 고향에서 전투를 펼칩니다!",
       "Drive your enemies back through the shadows of skyscrapers!": "고층 빌딩들의 그림자 너머로 적을 몰아내세요!",
-      "Protect the payload in the stunning playground of the mega-rich!": "재벌들의 호화로운 유흥지에서 화물을 호위하세요!"
+      "Protect the payload in the stunning playground of the mega-rich!": "재벌들의 호화로운 유흥지에서 화물을 호위하세요!",
+      "": ""
     },
     "players": {
       "5v1": "5대1",

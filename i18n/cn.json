@@ -141,11 +141,12 @@
       "Push Maps": "机动推进地图",
       "Paraíso": "帕拉伊苏",
       "Midtown": "中城",
-      "Circuit Royal": "皇家赛道"
+      "Circuit Royal": "皇家赛道",
+      "Shambali Monastery": "香巴里寺院"
     },
     "descriptions": {
       "Adventurous Hunters work together against the lone Yeti. Watch out, if the Yeti eats 4 meat it's time to run!": "勇敢的猎手们齐心协力，对抗孤身奋战的雪人。小心，如果雪人吃到了四块肉，就要赶快逃跑！",
-      "Face off in a series of five-on-five fights as Mei, who is equipped with a powerful Snowball Blaster. This weapon only has one shot, but can be reloaded at snow piles.": "使用美进行五对五的较量，每位玩家都配备了大威力雪球冲击枪。冲击枪一次只能发射一枚雪球，但可以在雪堆处补充雪球。",
+      "Join an a-mei-zing five-on-five snowball fight. You only have one shot but can reload at snow piles.": "快来加入美丽冻人的五对五雪球大战吧。你只有一枚雪球，但可以在雪堆处补充雪球。",
       "Defeat the enemy team with every player using heroes that randomly change upon respawn.": "击败对手，每一位玩家在复生时将随机更换英雄。",
       "Power up and embrace the chaos.": "打起精神做好准备，迎接狂欢！",
       "Climb to the top of the scoreboard. The deadliest team wins.": "在排行榜上不断攀升，最强大的团队才能获得胜利。",
@@ -197,13 +198,13 @@
       "A team of four heroes heads to Havana to deal with a new threat.": "四名英雄前往哈瓦那，应对新的威胁。",
       "A new Overwatch strike team heads to Havana to capture a critical Talon asset.": "一支全新的守望先锋突击小队前往哈瓦那，缉拿“黑爪”的重要成员。",
       "Two teams of six players compete on Busan to capture the enemy team's flag while defending their own.": "两支六人小队在釜山保护己方旗帜，同时夺取敌方旗帜。",
-      "Eliminated heroes are frozen and may be thawed by allies. Freeze all enemies to win the round. Successful heroes are removed from later rounds.": "被消灭的英雄会进入冰冻状态，并可被队友解冻。将敌人全部冰冻即可赢得本回合。获胜的英雄将在之后的回合被锁定。",
+      "Defeated heroes are frozen and may be thawed by allies. Freeze all enemies to win rounds. Winning heroes are removed per round. ": "被击败的英雄会进入冰冻状态，并可被队友解冻。将敌人全部冰冻即可获得回合胜利。每回合获胜的英雄将被锁定。",
       "Head to Paris and battle at the heart of the Omnic Resistance.": "前往巴黎，在智械抵抗军的核心地带展开激战",
       "Play through a set list of heroes in a deathmatch environment. Each time you get a kill, you swap to the next hero. The first player to get through their list wins.": "在死斗模式中创建一个英雄列表。每次获得一个击杀，则切换到下一个英雄。第一个完成整个英雄列表的玩家将获得胜利。",
       "Take the fight to the streets of Havana!": "战火将在哈瓦那的街道上燃起！",
       "A free-for-all battle against identical heroes!": "完全相同英雄的自由混战！",
       "PH Endless Deathmatch description": "PH 无尽死斗模式规则描述",
-      "Face off in a free-for-all snowball fight as Mei, who is equipped with a powerful Snowball Blaster. This weapon has limited ammo, but can be reloaded at snow piles.": "加入各自为战的雪球大战吧！每位玩家都将使用美，并配备了大威力的雪球冲击枪。冲击枪的弹药有限，但可以在雪堆处补充雪球。",
+      "Join an a-mei-zing free-for-all snowball fight. You only have 3 shots but can reload at snow piles.": "快来加入美丽冻人且各自为战的雪球大战吧。你只有3枚雪球，但可以在雪堆处补充雪球。",
       "PH Skirmish description": "PH 突击模式规则描述",
       "Two teams of five players compete in a fast-paced match to capture the enemy team's flag while defending their own.": "两支五人小队在高节奏的狂热竞赛中保护己方旗帜，同时夺取敌方旗帜。",
       "Storm Rising. Only damage heroes. Healing is reduced. Heal yourself by doing damage.": "哈瓦那行动。只能选择输出英雄。治疗量降低。造成伤害时会为自己恢复生命。",
@@ -241,7 +242,8 @@
       "Push the bot farther than the enemy team does.": "推进机器人，超越敌人。",
       "Battle through the streets of Lúcio's hometown!": "在卢西奥家乡的街头巷尾展开激斗！",
       "Drive your enemies back through the shadows of skyscrapers!": "把敌人赶回幢幢摩天大楼的阴影之下！",
-      "Protect the payload in the stunning playground of the mega-rich!": "在如梦似幻的酒醉金迷间保护运载目标！"
+      "Protect the payload in the stunning playground of the mega-rich!": "在如梦似幻的酒醉金迷间保护运载目标！",
+      "": ""
     },
     "players": {
       "5v1": "5v1",
